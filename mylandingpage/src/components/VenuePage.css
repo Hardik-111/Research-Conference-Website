@@ -1,0 +1,136 @@
+/* General Styles */
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #777;
+    font-weight: 400;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Venue Details Section */
+.venue-details {
+    padding: 60px 20px;
+    background: #f6f6f6;
+}
+
+.venue-details h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.venue-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Venue Images Section */
+.venue-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.venue-images img {
+    max-width: 48%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.features h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.features li:before {
+    content: '\f00c'; /* FontAwesome check mark */
+    font-family: 'FontAwesome';
+    color: #5ca9fb;
+    position: absolute;
+    left: -25px;
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    background: #6372ff;
+    color: #fff;
+}
+
+.contact h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Button Styles */
+.btn-custom {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #6372ff;
+}

@@ -34,7 +34,7 @@ export const About = (props) => {
               </div>
             </div>
             <a
-                  href='#features'
+                  href='/about'
                   className='btn btn-custom btn-lg page-scroll'
                   style={{ marginTop:'6px' }}
                 >

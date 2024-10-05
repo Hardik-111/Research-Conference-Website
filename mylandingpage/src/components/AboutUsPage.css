@@ -1,0 +1,83 @@
+/* AboutUsPage.css */
+
+/* General styling for the container */
+.about-container {
+    max-width: 800px; /* Set a max width for the content */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    line-height: 1.6; /* Improve readability with line height */
+    color: #333; /* Set text color */
+}
+
+/* Headings styles */
+.about-container h1,
+.about-container h2,
+.about-container h3 {
+    color: #0056b3; /* A shade of blue for headings */
+    margin-top: 20px; /* Space above headings */
+}
+
+.about-container h1 {
+    font-size: 2.5rem; /* Larger font for main title */
+}
+
+.about-container h2 {
+    font-size: 2rem; /* Medium font size for sub-headings */
+}
+
+.about-container h3 {
+    font-size: 1.5rem; /* Smaller font size for section titles */
+}
+
+/* Paragraph styles */
+.about-container p {
+    margin-bottom: 15px; /* Space below paragraphs */
+    text-align: justify; /* Justify text for better alignment */
+}
+
+/* List styles */
+.about-container ul {
+    list-style-type: disc; /* Use disc style for lists */
+    padding-left: 20px; /* Indent list items */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+.about-container li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Image styles */
+.about-container img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Display images as block */
+    margin: 20px 0; /* Space above and below images */
+}
+
+/* Important dates styling */
+.dates {
+    background-color: #f9f9f9; /* Light background for important dates */
+    border-left: 4px solid #0056b3; /* Blue left border */
+    padding: 10px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space below the box */
+}
+
+.dates h3 {
+    color: #333; /* Darker color for dates heading */
+}
+
+.dates p {
+    margin: 5px 0; /* Space between date items */
+}
+
+/* Guidelines for submission */
+.guidelines {
+    border: 1px dashed #ccc; /* Dashed border for submission guidelines */
+    padding: 15px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space below the box */
+}
+
+.guidelines h3 {
+    color: #d9534f; /* Red color for guidelines heading */
+}
