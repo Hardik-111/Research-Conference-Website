@@ -1,5 +1,8 @@
 # International Conference on HABIT 2025
 
+![HABIT 2025 Conference](https://github.com/user-attachments/assets/a823832f-2589-4715-8ba0-9f8b6817ce29)
+
+
 Welcome to the repository for the International Conference on HABIT 2025 website! This conference aims to bring together researchers, practitioners, and industry experts to discuss the latest developments in the field of HABIT (Human-Aware Behavioral Intervention Technologies).
 
 ## Table of Contents
