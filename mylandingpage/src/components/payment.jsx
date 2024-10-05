@@ -1,67 +1,52 @@
-import React, { useState, useCallback } from "react";
-import ImageViewer from "react-simple-image-viewer";
+// Payment.jsx
+import React from "react";
+// import { PaymentSummary } from "./PaymentPage";
 
-export const Gallery = props => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [isViewerOpen, setIsViewerOpen] = useState(false);
-
-  const data = [
-    { thumb: "img/gal1.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/gal2.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/gal3.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/gal4.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/gal5.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/portfolio/07-small.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/portfolio/08-small.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/portfolio/09-small.jpg", title: "Lorem Ipsum9" }
-  ];
-
-  const images = data.map(obj => obj.thumb.replace("-small", "-large"));
-
-  const openImageViewer = useCallback(index => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  }, []);
-
-  const closeImageViewer = () => {
-    setCurrentImage(0);
-    setIsViewerOpen(false);
-  };
-
+export const Payment = () => {
   return (
-    <div id="portfolio" className="text-center">
-      <div className="container">
-        <div className="section-title">
-          <h2>Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-        </div>
-        <div className="row">
-          <div className="portfolio-items">
-            {data.map(({ title, thumb }, index) => (
-              <div key={index} onClick={() => openImageViewer(index)} className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item cursor">
-                  <div className="hover-bg">
-                    <div className="hover-text">
-                      <h4>{title}</h4>
-                    </div>
-                    <img src={thumb} className="img-responsive" alt="Project Title" />{" "}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="payment-summary" id="payment">
+      <h2>Payment Options</h2>
+      <p><strong>Offline Mode:</strong> Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
+      <p><strong>Online Mode:</strong> Please contact for bank details.</p>
 
-          {isViewerOpen && (
-            <ImageViewer
-              src={images}
-              backgroundStyle={{ zIndex: 99999 }}
-              currentIndex={currentImage}
-              onClose={closeImageViewer}
-            />
-          )}
-        </div>
-      </div>
+      <h3>Fee Structure</h3>
+      <table className="fee-structure-summary-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Early Bird</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Students (UG/PG)</td>
+            <td>2000 INR</td>
+          </tr>
+          <tr>
+            <td>PhD/Post Doctoral Fellow/Research Scholar</td>
+            <td>2500 INR</td>
+          </tr>
+          <tr>
+            <td>Academia</td>
+            <td>4000 INR</td>
+          </tr>
+          <tr>
+            <td>Industries</td>
+            <td>6000 INR</td>
+          </tr>
+          <tr>
+            <td>Accompanying Person</td>
+            <td>2500 INR</td>
+          </tr>
+        </tbody>
+      </table>
+      <a
+                  href='/payment-page'
+                  className='btn btn-custom btn-lg page-scroll'
+                  style={{ alignItems:'center' }}
+                >
+                  Learn More
+                </a>{' '}
     </div>
   );
 };

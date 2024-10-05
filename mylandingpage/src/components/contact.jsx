@@ -35,7 +35,7 @@ export const Contact = (props) => {
       )
   }
   return (
-    <div>
+    <div style={{marginBottom:"0"}}>
       <div id='contact'>
         <div className='container'>
           <div className='col-md-8'>

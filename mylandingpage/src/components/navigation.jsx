@@ -47,21 +47,21 @@ export const Navigation = (props) => {
               {isLandingPage ? (
                 <a href='#about' className='page-scroll'>About</a>
               ) : (
-                <Link to='/#about'>About</Link>
+                <Link to='/about'>About</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#testimonials' className='page-scroll'>Register</a>
+                <a href='#payment' className='page-scroll'>Payment</a>
               ) : (
-                <Link to='/#testimonials'>Register</Link>
+                <Link to='/payment'>Payment</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#services' className='page-scroll'>Committee</a>
               ) : (
-                <Link to='/#services'>Committee</Link>
+                <Link to='/services'>Committee</Link>
               )}
             </li>
             <li>
@@ -73,9 +73,9 @@ export const Navigation = (props) => {
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#portfolio' className='page-scroll'>Contact</a>
+                <a href='#contact' className='page-scroll'>Contact</a>
               ) : (
-                <Link to='/#portfolio'>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               )}
             </li>
           </ul>

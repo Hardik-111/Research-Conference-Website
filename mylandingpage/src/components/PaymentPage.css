@@ -1,0 +1,58 @@
+/* PaymentPage.css */
+#payment-page {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    margin-bottom: 40px;
+  }
+  
+  .payment-info-table,
+  .fee-structure-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+  }
+  
+  .payment-info-table th,
+  .fee-structure-table th,
+  .payment-info-table td,
+  .fee-structure-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .payment-info-table th,
+  .fee-structure-table th {
+    background-color: #f2f2f2;
+  }
+/* PaymentPage.css */
+.payment-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .payment-summary h2 {
+    margin-bottom: 15px;
+  }
+  
+  .payment-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .payment-summary th,
+  .payment-summary td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .payment-summary th {
+    background-color: #f2f2f2;
+  }
+    

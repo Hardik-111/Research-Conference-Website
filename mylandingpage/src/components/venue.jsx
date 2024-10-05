@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Venue = () => {
   return (
-    <div id="location" className="text-center">
+    <div id="venue" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Location</h2>
@@ -14,7 +14,7 @@ export const Venue = () => {
               width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"
               referrerPolicy="no-referrer-when-downgrade">
             </iframe>
-            <div style={{ marginTop: '2rem' }}>
+            <div style={{ marginTop: '2rem' , marginBottom: '2rem' }}>
               <a href="/venue" className="btn btn-custom btn-lg">Explore More</a>
             </div>
           </div>
