@@ -54,7 +54,7 @@ export const Navigation = (props) => {
               {isLandingPage ? (
                 <a href='#payment' className='page-scroll'>Payment</a>
               ) : (
-                <Link to='/payment'>Payment</Link>
+                <Link to='/payment-page'>Payment</Link>
               )}
             </li>
             <li>
