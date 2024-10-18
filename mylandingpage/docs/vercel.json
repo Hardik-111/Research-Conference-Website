@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about"
+    },
+    {
+      "source": "/payment",
+      "destination": "/payment"
+    },
+    {
+      "source": "/payment-page",
+      "destination": "/payment-page"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact"
+    },
+    {
+      "source": "/venue",
+      "destination": "/venue"
+    },
+    {
+      "source": "/committee",
+      "destination": "/committee"
+    }
+  ]
+}
