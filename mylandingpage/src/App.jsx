@@ -35,7 +35,7 @@ const App = () => {
       <div>
         <Routes>
           <Route
-            path="https://research-conference-website.vercel.app/"
+            path="/"
             element={
               <>
                 <Navigation />
