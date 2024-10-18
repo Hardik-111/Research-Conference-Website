@@ -1,11 +1,11 @@
 import React from 'react';
 // Import your background image
-import backgroundImage from './../imgs/Home1.jpg'; // Adjust the path as necessary
+// import backgroundImage from './../imgs/Home1.jpg'; // Adjust the path as necessary
 
 export const Header = (props) => {
   return (
     <header id='header'>
-      <div className='intro' style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'contain', backgroundPosition: 'center', height: '10vh' }}>
+      <div className='intro' style={{ backgroundImage: `url('/img/Home1.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center',backgroundRepeat:'no-repeat' , height: '10vh' }}>
         <div className='overlay'>
           <div className='container'>
             <div className='row'>
@@ -18,6 +18,7 @@ export const Header = (props) => {
                 <a
                   href='/about'
                   className='btn btn-custom btn-lg page-scroll'
+                  style={{ backgroundColor:'#2c2d31' }}
                 >
                   Learn More
                 </a>{' '}

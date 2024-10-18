@@ -70,13 +70,14 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
-	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+    background-color: #fff;
+    border-color: rgba(231, 231, 231, 0);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Increased shadow for a darker effect */
 }
+
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
@@ -85,7 +86,7 @@ hr {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	color: #555;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
@@ -212,7 +213,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro p {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 30px;
 	margin: 0 auto;
 	margin-bottom: 60px;

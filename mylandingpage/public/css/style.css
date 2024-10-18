@@ -77,7 +77,7 @@ hr {
 
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
@@ -213,7 +213,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro p {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 30px;
 	margin: 0 auto;
 	margin-bottom: 60px;

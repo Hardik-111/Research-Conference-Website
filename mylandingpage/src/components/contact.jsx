@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import { Footer } from './footer'
+import { Navigation } from './navigation'
 
 const initialState = {
   name: '',
@@ -35,6 +37,8 @@ export const Contact = (props) => {
       )
   }
   return (
+    <>
+    <Navigation/>
     <div style={{marginBottom:"0"}}>
       <div id='contact'>
         <div className='container'>
@@ -49,17 +53,18 @@ export const Contact = (props) => {
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
-                  <div className='col-md-6'>
+                  <div className='col-md-6 br-10'>
                     <div className='form-group'>
                       <input
                         type='text'
                         id='name'
                         name='name'
                         className='form-control'
+                        style={{ borderRadius: '3px' }}
                         placeholder='Name'
                         required
                         onChange={handleChange}
-                      />
+                        />
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
@@ -70,10 +75,11 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
+                        style={{ borderRadius: '3px' }}
                         placeholder='Email'
                         required
                         onChange={handleChange}
-                      />
+                        />
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
@@ -83,6 +89,7 @@ export const Contact = (props) => {
                     name='message'
                     id='message'
                     className='form-control'
+                    style={{ borderRadius: '3px' }}
                     rows='4'
                     placeholder='Message'
                     required
@@ -150,5 +157,7 @@ export const Contact = (props) => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
