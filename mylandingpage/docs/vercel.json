@@ -2,27 +2,27 @@
   "rewrites": [
     {
       "source": "/about",
-      "destination": "/about"
+      "destination": "/docs/about"
     },
     {
       "source": "/payment",
-      "destination": "/payment"
+      "destination": "/docs/payment"
     },
     {
       "source": "/payment-page",
-      "destination": "/payment-page"
+      "destination": "/docs/payment-page"
     },
     {
       "source": "/contact",
-      "destination": "/contact"
+      "destination": "/docs/contact"
     },
     {
       "source": "/venue",
-      "destination": "/venue"
+      "destination": "/docs/venue"
     },
     {
       "source": "/committee",
-      "destination": "/committee"
+      "destination": "/docs/committee"
     }
   ]
 }
