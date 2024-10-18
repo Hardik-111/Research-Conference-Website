@@ -2,11 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "docs/index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "src/**/*.jsx",
+      "src": "src/index.js",  
       "use": "@vercel/static-build",
       "config": {
         "distDir": "docs"
@@ -20,6 +16,7 @@
     { "src": "/contact", "dest": "/docs/contact.html" },
     { "src": "/venue", "dest": "/docs/venue.html" },
     { "src": "/committee", "dest": "/docs/committee.html" },
-    { "src": "/(.*)", "dest": "/docs/index.html" }
+    { "src": "/", "dest": "/docs/index.html" },
+    { "src": "/(.*)", "dest": "/docs/index.html" } 
   ]
 }
