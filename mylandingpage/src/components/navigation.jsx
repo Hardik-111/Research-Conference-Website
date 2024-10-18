@@ -40,42 +40,42 @@ export const Navigation = (props) => {
               {isLandingPage ? (
                 <a href='#features' className='page-scroll'>Home</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/'>Home</Link>
+                <Link to='/'>Home</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#about' className='page-scroll'>About</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/about'>About</Link>
+                <Link to='/about'>About</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#payment' className='page-scroll'>Payment</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/payment-page'>Payment</Link>
+                <Link to='/payment-page'>Payment</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#committee' className='page-scroll'>Committee</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/committee'>Committee</Link> 
+                <Link to='/committee'>Committee</Link> 
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#venue' className='page-scroll'>Venue</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/venue'>Venue</Link>
+                <Link to='/venue'>Venue</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
                 <a href='#contact' className='page-scroll'>Contact</a>
               ) : (
-                <Link to='https://research-conference-website.vercel.app/contact'>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               )}
             </li>
           </ul>

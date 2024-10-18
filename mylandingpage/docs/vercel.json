@@ -1,28 +1,25 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/about",
-      "destination": "/docs/about"
+      "src": "docs/index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/payment",
-      "destination": "/docs/payment"
-    },
-    {
-      "source": "/payment-page",
-      "destination": "/docs/payment-page"
-    },
-    {
-      "source": "/contact",
-      "destination": "/docs/contact"
-    },
-    {
-      "source": "/venue",
-      "destination": "/docs/venue"
-    },
-    {
-      "source": "/committee",
-      "destination": "/docs/committee"
+      "src": "src/**/*.jsx",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "docs"
+      }
     }
+  ],
+  "routes": [
+    { "src": "/about", "dest": "/docs/about.html" },
+    { "src": "/payment", "dest": "/docs/payment.html" },
+    { "src": "/payment-page", "dest": "/docs/payment-page.html" },
+    { "src": "/contact", "dest": "/docs/contact.html" },
+    { "src": "/venue", "dest": "/docs/venue.html" },
+    { "src": "/committee", "dest": "/docs/committee.html" },
+    { "src": "/(.*)", "dest": "/docs/index.html" }
   ]
 }

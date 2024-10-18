@@ -41,7 +41,7 @@ export const Payment = () => {
         </tbody>
       </table>
       <a
-                  href='https://research-conference-website.vercel.app/payment-page'
+                  href='/payment-page'
                   className='btn btn-custom btn-lg page-scroll'
                   style={{ alignItems:'center' }}
                 >

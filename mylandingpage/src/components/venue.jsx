@@ -15,7 +15,7 @@ export const Venue = () => {
               referrerPolicy="no-referrer-when-downgrade">
             </iframe>
             <div style={{ marginTop: '2rem' , marginBottom: '2rem' }}>
-              <a href="https://research-conference-website.vercel.app/venue" className="btn btn-custom btn-lg">Explore More</a>
+              <a href="/venue" className="btn btn-custom btn-lg">Explore More</a>
             </div>
           </div>
         </div>
