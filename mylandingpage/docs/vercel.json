@@ -2,23 +2,23 @@
   "rewrites": [
     {
       "source": "/about",
-      "destination": "/about"
+      "destination": "https://research-conference-website.vercel.app/about"
     },
     {
       "source": "/payment",
-      "destination": "/payment"
+      "destination": "https://research-conference-website.vercel.app/payment"
     },
     {
       "source": "/contact",
-      "destination": "/contact"
+      "destination": "https://research-conference-website.vercel.app/contact"
     },
     {
       "source": "/venue",
-      "destination": "/venue"
+      "destination": "https://research-conference-website.vercel.app/venue"
     },
     {
       "source": "/committee",
-      "destination": "/committee"
+      "destination": "https://research-conference-website.vercel.app/committee"
     }
   ]
 }
