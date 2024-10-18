@@ -2,21 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/index.js",  
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "docs"
-      }
+      "src": "build/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "build/**/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
-    { "src": "/about", "dest": "/docs/about.html" },
-    { "src": "/payment", "dest": "/docs/payment.html" },
-    { "src": "/payment-page", "dest": "/docs/payment-page.html" },
-    { "src": "/contact", "dest": "/docs/contact.html" },
-    { "src": "/venue", "dest": "/docs/venue.html" },
-    { "src": "/committee", "dest": "/docs/committee.html" },
-    { "src": "/", "dest": "/docs/index.html" },
-    { "src": "/(.*)", "dest": "/docs/index.html" } 
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
