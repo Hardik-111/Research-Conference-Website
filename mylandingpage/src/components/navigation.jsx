@@ -28,7 +28,7 @@ export const Navigation = (props) => {
               src={logo}
               alt='Logo'
               style={{ height: '58px', marginRight: '10px' }} // Adjust height and margin as needed
-            />  
+            />
             <span className='title'>HABIT 2025</span>
           </Link>
         </div>
@@ -59,9 +59,9 @@ export const Navigation = (props) => {
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#services' className='page-scroll'>Committee</a>
+                <a href='#committee' className='page-scroll'>Committee</a>
               ) : (
-                <Link to='/services'>Committee</Link>
+                <Link to='/committee'>Committee</Link> 
               )}
             </li>
             <li>
