@@ -34,7 +34,7 @@ export const About = (props) => {
               </div>
             </div>
             <a
-                  href='/about'
+                  href='https://research-conference-website.vercel.app/about'
                   className='btn btn-custom btn-lg page-scroll'
                   style={{ marginTop:'6px' }}
                 >

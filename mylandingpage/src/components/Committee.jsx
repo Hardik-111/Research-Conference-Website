@@ -26,7 +26,7 @@ export const Committee = (props) => {
         </div>
       </div>
       <a
-                  href='/committee'
+                  href='https://research-conference-website.vercel.app/committee'
                   className='btn btn-custom btn-lg page-scroll'
                   style={{ backgroundColor:'#2c2d31' }}
                 >

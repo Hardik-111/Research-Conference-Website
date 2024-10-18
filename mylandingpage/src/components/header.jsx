@@ -16,7 +16,7 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='/about'
+                  href='https://research-conference-website.vercel.app/about'
                   className='btn btn-custom btn-lg page-scroll'
                   style={{ backgroundColor:'#2c2d31' }}
                 >

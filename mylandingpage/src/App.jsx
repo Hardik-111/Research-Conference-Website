@@ -35,7 +35,7 @@ const App = () => {
       <div>
         <Routes>
           <Route
-            path="/"
+            path="https://research-conference-website.vercel.app/"
             element={
               <>
                 <Navigation />
@@ -51,12 +51,12 @@ const App = () => {
               </>
             }
           />
-          <Route path="/committee" element={<CommitteePage data={landingPageData.Committee} />} /> {/* New route */}
-          <Route path="/venue" element={<VenuePage />} />
-          <Route path="/about" element={<AboutUsPage />} />
-          <Route path="/payment" element={<Payment />} />
-          <Route path="/payment-page" element={<PaymentPage />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="https://research-conference-website.vercel.app/committee" element={<CommitteePage data={landingPageData.Committee} />} /> {/* New route */}
+          <Route path="https://research-conference-website.vercel.app/venue" element={<VenuePage />} />
+          <Route path="https://research-conference-website.vercel.app/about" element={<AboutUsPage />} />
+          <Route path="https://research-conference-website.vercel.app/payment" element={<Payment />} />
+          <Route path="https://research-conference-website.vercel.app/payment-page" element={<PaymentPage />} />
+          <Route path="https://research-conference-website.vercel.app/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
