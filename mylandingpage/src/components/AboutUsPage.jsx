@@ -83,8 +83,8 @@ const AboutUsPage = () => {
 
             <h3>Paper Submission</h3>
             <p>
-                Please submit the abstract (not exceeding 250 words) online at <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank'>here</a>. 
-                Candidates should register at <a href="https://shorturl.at/PW4YN" target='_blank'>https://shorturl.at/PW4YN</a> and then 
+                Please submit the abstract (not exceeding 250 words) online at <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank' rel="noreferrer">here</a>. 
+                Candidates should register at <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN</a> and then 
                 login to submit the abstract. The notification regarding the nature of the presentation (oral/poster) 
                 will be communicated well in advance. The size of the poster will be 90x90cm for all poster presentations. 
                 It should state title, name, and address of the authors, short introduction, methods and materials, results, 
@@ -93,7 +93,7 @@ const AboutUsPage = () => {
 
             <h3>Registration Procedure</h3>
             <p>
-                All participants are requested to register online at <a href="https://shorturl.at/PW4YN">https://shorturl.at/PW4YN target='_blank'</a>. 
+                All participants are requested to register online at <a href="https://shorturl.at/PW4YN" rel="noreferrer">https://shorturl.at/PW4YN target='_blank'</a>. 
                 Participants should submit the printed filled registration form along with DD (offline mode) or electronic receipt 
                 (online mode).<br></br>
                 Please mention <b>HABIT 2025</b> in transaction remarks.

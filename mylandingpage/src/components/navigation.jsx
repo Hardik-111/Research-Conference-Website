@@ -27,7 +27,7 @@ export const Navigation = (props) => {
             <img
               src={logo}
               alt='Logo'
-              style={{ height: '58px', marginRight: '10px' }} // Adjust height and margin as needed
+              style={{ height: '58px', marginRight: '5px' }} // Adjust height and margin as needed
             />
             <span className='title'>HABIT 2025</span>
           </Link>
@@ -54,7 +54,7 @@ export const Navigation = (props) => {
               {isLandingPage ? (
                 <a href='#payment' className='page-scroll'>Registration</a>
               ) : (
-                <Link to='/payment-page'>Registration</Link>
+                <Link to='/payment-page'>Register</Link>
               )}
             </li>
             <li>
