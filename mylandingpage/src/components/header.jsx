@@ -34,41 +34,36 @@ const Header = () => {
     <header id="header" style={{ marginTop: '85px' }}> {/* Space from fixed nav bar */}
       <div className="intro">
         <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center', width: '100%' }}>
-          {/* Image display with background image */}
-          <Box
-            sx={{
+          {/* Display image as an <img> element */}
+          <img
+            src={sliderImages[sliderIndex]}
+            alt={`Slide ${sliderIndex + 1}`}
+            style={{
               width: '100%',
               height: '500px',
-              backgroundImage: `url(${sliderImages[sliderIndex]})`,
-              backgroundSize: 'cover', // Default cover
-              backgroundPosition: 'center center',
-              backgroundRepeat: 'no-repeat',
-              position: 'relative',
-              '@media (max-width: 600px)': {
-                backgroundSize: 'contain', // For smaller screens, use contain
-              },
+              objectFit: 'cover',
+            }}
+          />
+          
+          {/* Navigation Controls (Prev and Next Icons) */}
+          <Box
+            sx={{
+              position: 'absolute',
+              top: '50%',
+              left: 0,
+              right: 0,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              transform: 'translateY(-50%)',
             }}
           >
-            {/* Navigation Controls (Prev and Next Icons) */}
-            <Box
-              sx={{
-                position: 'absolute',
-                top: '50%',
-                left: 0,
-                right: 0,
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                transform: 'translateY(-50%)',
-              }}
-            >
-              <IconButton onClick={handlePrev} sx={{ backgroundColor: 'rgba(0,0,0,0.3)', color: 'white', padding: '10px' }}>
-                <ChevronLeftIcon />
-              </IconButton>
-              <IconButton onClick={handleNext} sx={{ backgroundColor: 'rgba(0,0,0,0.3)', color: 'white', padding: '10px' }}>
-                <ChevronRightIcon />
-              </IconButton>
-            </Box>
+            <IconButton onClick={handlePrev} sx={{ backgroundColor: 'rgba(0,0,0,0.3)', color: 'white', padding: '10px' }}>
+              <ChevronLeftIcon />
+            </IconButton>
+            <IconButton onClick={handleNext} sx={{ backgroundColor: 'rgba(0,0,0,0.3)', color: 'white', padding: '10px' }}>
+              <ChevronRightIcon />
+            </IconButton>
           </Box>
         </Box>
 
