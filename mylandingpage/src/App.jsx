@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Navigation } from './components/navigation';
-import { Header } from './components/header';
+import Header from './components/header'; // Default import
 import { Features } from './components/features';
 import { About } from './components/about';
 import { CommitteePage } from './components/CommitteePage'; // Updated import

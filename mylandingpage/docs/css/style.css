@@ -291,7 +291,8 @@ header .intro-text {
 #committee {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: #fff;
+	/* color: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	color: white;
 }
 #committee .service-desc {
 	margin: 10px 10px 20px;

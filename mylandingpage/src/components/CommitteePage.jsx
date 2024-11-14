@@ -68,7 +68,7 @@ export const CommitteePage = () => {
 
           <h2>Organizing Secretaries</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white', marginBottom: '3rem' }}>
-            <thead>
+          <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
@@ -86,7 +86,7 @@ export const CommitteePage = () => {
 
           <h2>Advisory Committee</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white', marginBottom: '3rem' }}>
-            <thead>
+            <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
@@ -106,7 +106,7 @@ export const CommitteePage = () => {
 
           <h2 style={{ marginBottom: '3rem' }}>Speakers in HABIT 2025</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white' }}>
-            <thead>
+          <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
