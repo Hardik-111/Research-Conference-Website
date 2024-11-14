@@ -7,106 +7,150 @@ import { Navigation } from "./navigation";
 const PaymentPage = () => {
   return (
     <>
-    <Navigation/>
-    <div id="payment-page" className="text-center" style={{ marginTop:'6rem' }}>
-      <div className="container">
-        <div className="section-title">
-          <h2>Mode of Payment</h2>
-          <p>Please select a payment method:</p>
-        </div>
+      <Navigation />
+      <div id="payment-page" className="text-center" style={{ marginTop: '6rem' }}>
+        <div className="container">
+          <div className="section-title">
+            <h2>Mode of Payment</h2>
+            <p>Please select a payment method:</p>
+          </div>
 
-        <div className="payment-methods">
-          <h3>Offline Mode</h3>
-          <p>Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
+          <div className="payment-methods">
+            <h3>Offline Mode</h3>
+            <p>Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
 
-          <h3>Online Mode</h3>
-          <table className="payment-info-table">
-            <thead>
-              <tr>
-                <th>Name of Bank</th>
-                <th>Bank Account Number</th>
-                <th>Branch Code</th>
-                <th>MICR Code</th>
-                <th>IFSC Code</th>
-                <th>SWIFT Code</th>
-                <th>Address of Bank</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Your Bank Name</td>
-                <td>Your Account Number</td>
-                <td>Your Branch Code</td>
-                <td>Your MICR Code</td>
-                <td>Your IFSC Code</td>
-                <td>Your SWIFT Code</td>
-                <td>Your Bank Address</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+            <h3>Online Mode</h3>
+            <p>Transfer to the following bank details:</p>
+            <table className="payment-info-table">
+              <tbody>
+                <tr>
+                  <td><strong>Bank Account Name:</strong></td>
+                  <td>SNFCE MNNIT Allahabad</td>
+                </tr>
+                <tr>
+                  <td><strong>Bank Account Number:</strong></td>
+                  <td>10424975574</td>
+                </tr>
+                <tr>
+                  <td><strong>Bank Name and Branch:</strong></td>
+                  <td>SBI, MNNIT Allahabad</td>
+                </tr>
+                <tr>
+                  <td><strong>IFSC Code:</strong></td>
+                  <td>SBIN0002580</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-        <div className="fee-structure">
-          <h3>Fee Structure</h3>
-          <table className="fee-structure-table">
-            <thead>
-              <tr>
-                <th>Category</th>
-                <th>Early Bird</th>
-                <th>Late</th>
-                <th>On Spot</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Students (UG/PG)</td>
-                <td>2000 INR</td>
-                <td>2500 INR</td>
-                <td>3000 INR</td>
-              </tr>
-              <tr>
-                <td>PhD/Post Doctoral Fellow/Research Scholar</td>
-                <td>2500 INR</td>
-                <td>3000 INR</td>
-                <td>3500 INR</td>
-              </tr>
-              <tr>
-                <td>Academia</td>
-                <td>4000 INR</td>
-                <td>5000 INR</td>
-                <td>6000 INR</td>
-              </tr>
-              <tr>
-                <td>Industries</td>
-                <td>6000 INR</td>
-                <td>7000 INR</td>
-                <td>8000 INR</td>
-              </tr>
-              <tr>
-                <td>Accompanying Person</td>
-                <td>2500 INR</td>
-                <td>3000 INR</td>
-                <td>3500 INR</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+          <div className="fee-structure">
+            <h3>Fee Structure - From India(INR) </h3>
+            <table className="fee-structure-table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Early Bird (INR)</th>
+                  <th>Late (INR)</th>
+                  <th>On Spot (INR)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Students (UG/PG)</td>
+                  <td>2500</td>
+                  <td>3000</td>
+                  <td>3500</td>
+                </tr>
+                <tr>
+                  <td>PhD/Post Doctoral Fellow/Research Scholar</td>
+                  <td>3500</td>
+                  <td>4000</td>
+                  <td>5000</td>
+                </tr>
+                <tr>
+                  <td>Faculty/Scientist</td>
+                  <td>5000</td>
+                  <td>6000</td>
+                  <td>7000</td>
+                </tr>
+                <tr>
+                  <td>Industries</td>
+                  <td>6000</td>
+                  <td>7000</td>
+                  <td>8000</td>
+                </tr>
+                <tr>
+                  <td>Accompanying Person</td>
+                  <td>2500</td>
+                  <td>3000</td>
+                  <td>3500</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-        <div className="awards-and-honors">
-          <h3>Awards and Honors</h3>
-          <p>
-            To promote the budding young scientist, participants are encouraged to apply for various awards 
-            like Young Scientists Award, Best Poster Award, and Best Oral Presentation Award. 
+          <div className="fee-structure">
+            <h3>Fee Structure - Foreign Delegates(USD)</h3>
+            <table className="fee-structure-table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Early Bird (USD)</th>
+                  <th>Late (USD)</th>
+                  <th>On Spot (USD)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Students (UG/PG)</td>
+                  <td>200</td>
+                  <td>250</td>
+                  <td>300</td>
+                </tr>
+                <tr>
+                  <td>PhD/Post Doctoral Fellow/Research Scholar</td>
+                  <td>250</td>
+                  <td>300</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td>Faculty/Scientist</td>
+                  <td>300</td>
+                  <td>400</td>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <td>Industries</td>
+                  <td>400</td>
+                  <td>500</td>
+                  <td>600</td>
+                </tr>
+                <tr>
+                  <td>Accompanying Person</td>
+                  <td>200</td>
+                  <td>250</td>
+                  <td>300</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+   
+          <p>Registration Fee includes registration charges, refreshments served during the conference, conference kit and entry to cultural events. All payment details shall be mentioned by participant in the online registration form.
           </p>
+
+          <div className="awards-and-honors">
+            <h3>Awards and Honors</h3>
+            <p>
+              To promote budding young scientists, participants are encouraged to apply for various awards 
+              such as the Young Scientists Award, Best Poster Award, and Best Oral Presentation Award. 
+              The <b>HABIT-2025</b> Young Scientist Award includes a cash prize along with a certificate.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <Footer/>
+      <Footer />
     </>
-
   );
 };
-
-
 
 export default PaymentPage;

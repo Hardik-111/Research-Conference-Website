@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; // Import Link and useLocation for dynamic navigation
+import { Link, useLocation } from 'react-router-dom';
 import logo from './../imgs/MNNIT_logo.jpg'; // Adjust the path as necessary
 
 export const Navigation = (props) => {
@@ -52,9 +52,9 @@ export const Navigation = (props) => {
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#payment' className='page-scroll'>Payment</a>
+                <a href='#payment' className='page-scroll'>Registration</a>
               ) : (
-                <Link to='/payment-page'>Payment</Link>
+                <Link to='/payment-page'>Registration</Link>
               )}
             </li>
             <li>
@@ -77,6 +77,18 @@ export const Navigation = (props) => {
               ) : (
                 <Link to='/contact'>Contact</Link>
               )}
+            </li>
+            {/* Download Brochure link */}
+            <li>
+              <a
+                href='/brochure_updated_conference.pptx'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='page-scroll'
+                style={{ fontWeight: 'bold', color: '#ff6f61' }} // Optional: customize style
+              >
+                Brochure
+              </a>
             </li>
           </ul>
         </div>

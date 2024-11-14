@@ -17,7 +17,7 @@ export const VenuePage = () => {
           </div>
 
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-14">
               <h3>Prayagraj By Air</h3>
               <p>
                 Prayagraj has its own domestic airport which is 15 km away from the heart of the city. The airport is connected to metros like Delhi, Kolkata, and Lucknow. The taxi charge from the airport to the city is around ₹650. International travelers can get connecting flights from Delhi, Bengaluru, or Mumbai.
@@ -56,10 +56,10 @@ export const VenuePage = () => {
               </p>
 
               {/* Added content begins here */}
-              <div className="section-title" style={{ marginTop: '5rem' }}>
+              <div className="section-title" style={{ marginTop: '5rem', marginBottom:'2rem' }}>
                 <h2>The Sangam City</h2>
               </div>
-              <img src='./img/bridge.jpg' className='img-responsive' style={{ width:'100%' , height:'60rem' , marginBottom:'4rem'}} alt='' />{' '}
+              <img src='./img/conf/15.jpg' className='img-responsive' style={{ width:'100%' , height:'50rem' , marginBottom:'4rem'}} alt='' />{' '}
               <p>
                 Prayagraj is the sacred city where three greatest rivers of India meet, and continue their journey 
                 further. The city's original name Prayaga or "place of sacrifice" comes from its location at the 
@@ -90,7 +90,7 @@ export const VenuePage = () => {
                 <li><strong>Varanasi:</strong> An ancient, religious, and culturally rich city on the banks of the Ganges, located 120 km from Allahabad.</li>
               </ul>
 
-    
+             
             </div>
           </div>
         </div>

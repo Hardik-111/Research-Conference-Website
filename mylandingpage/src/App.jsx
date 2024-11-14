@@ -17,6 +17,7 @@ import PaymentPage from './components/PaymentPage';
 import { Contact } from './components/contact';
 import { Committee } from './components/Committee';
 
+
 // Smooth scroll initialization
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -40,9 +41,9 @@ const App = () => {
               <>
                 <Navigation />
                 <Header data={landingPageData.Header} />
-                <Features data={landingPageData.Features} />
+                {/* <Features data={landingPageData.Features} /> */}
                 <About data={landingPageData.About} />
-                <Testimonials data={landingPageData.Testimonials} />
+                {/* <Testimonials data={landingPageData.Testimonials} /> */}
                 <Payment />
                 <Committee data={landingPageData.Committee} /> {/* Updated component */}
                 <Venue />
