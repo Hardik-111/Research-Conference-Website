@@ -65,8 +65,8 @@ const Header = () => {
           >
             {/* Caption Content */}
             <div style={{ textAlign: 'center' }}>
-              <h1 style={{ fontSize: '4.5rem', fontWeight: 'bold', marginTop: '0.8rem'}}>HABIT-2025</h1>
-              <h3 style={{ color: 'white' ,fontWeight: '600', marginTop:'0.2rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
+              <h1 style={{ fontSize: '4.35rem', fontWeight: 'bold', marginTop: '0.8rem'}}>HABIT-2025</h1>
+              <h3 style={{ color: 'white' , fontSize: '2.85rem',fontWeight: '600', marginTop:'0.2rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
               <h3 style={{ color: 'yellow', fontSize: '1.75rem', fontWeight: '600', marginTop: '1.2rem' }}>[February 28 - March 2, 2025]</h3>
               <h3 style={{ color: 'white', fontSize: '1.75rem', fontWeight: '300', marginTop: '2rem' }}>Organized by:</h3>
               <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0rem' }}>Department of Biotechnology</h3>
