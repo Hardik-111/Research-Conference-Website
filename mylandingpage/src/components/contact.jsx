@@ -20,10 +20,10 @@ export const Contact = () => {
               {/* Contact Info Section (Address) */}
               <div className="col-md-8" style={{ color:'white' }} >
                 <h3>Contact Details</h3>
-                <p>
-                <strong style={{ color:'white' }}>Dr. Ashutosh Mani</strong>
+                <p style={{ color:'white' }}>
+                <strong >Dr. Ashutosh Mani</strong>
                   <br />
-                  <strong style={{ color:'white' }}> Convener, HABIT-2025 </strong>
+                  <strong > Convener, HABIT-2025 </strong>
                   <br />
                   Department of Biotechnology
                   <br />
@@ -33,37 +33,37 @@ export const Contact = () => {
 
               {/* Contact Info Right Side (Phone, Mobile, Fax, Email) */}
               <div className="col-md-4" >
-                <div className="contact-info" style={{ color:'white' }}>
-                  <div className="contact-item" style={{ color:'white' }}>
-                    <p>
+                <div className="contact-info" >
+                  <div className="contact-item">
+                    <p style={{ color:'white' }}>
                       <span style={{ fontWeight:'700'}}>
                         <i className="fa fa-phone" ></i> Phone
                       </span>
                       +91-532-2271239 (O)
                     </p>
                   </div>
-                  <div className="contact-item" style={{ color:'white' }}>
-                    <p>
+                  <div className="contact-item" >
+                    <p style={{ color:'white' }}>
                       <span style={{ fontWeight:'700'}}>
                         <i className="fa fa-mobile"></i> Mobile
                       </span>
                       +91 9455354251
                     </p>
                   </div>
-                  <div className="contact-item" style={{ color:'white' }}>
-                    <p>
+                  <div className="contact-item" >
+                    <p style={{ color:'white' }}>
                       <span style={{ fontWeight:'700'}}>
                         <i className="fa fa-fax"></i> Fax
                       </span>
                       +91-532-2545341
                     </p>
                   </div>
-                  <div className="contact-item" style={{ color:'white' }}>
-                    <p>
+                  <div className="contact-item">
+                    <p style={{ color:'white' }}>
                       <span style={{ fontWeight:'700'}}>
                         <i className="fa fa-envelope-o"></i> Email
                       </span>
-                      <a href="mailto:2025habit@gmail.com" style={{ color: 'white' }}>
+                      <a href="mailto:2025habit@gmail.com" >
                         2025habit@gmail.com
                       </a>
                     </p>

@@ -40,6 +40,7 @@ const Header = () => {
           {/* Display image as an <img> element */}
           <img
             src={sliderImages[sliderIndex]}
+            className='img-responsive'
             alt={`Slide ${sliderIndex + 1}`}
             style={{
               width: '100%',
@@ -58,17 +59,17 @@ const Header = () => {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: 'rgba(0, 0, 0, 0.5)',
-              backdropFilter: 'blur(4px)',
+              backgroundColor: 'rgba(0, 0, 0, 0.35)',
+              backdropFilter: 'blur(3px)',
               color: 'white',
             }}
           >
             {/* Caption Content */}
             <div style={{ textAlign: 'center' }}>
               <h1 style={{ fontSize: '4.35rem', fontWeight: 'bold', marginTop: '0.8rem'}}>HABIT-2025</h1>
-              <h3 style={{ color: 'white' , fontSize: '2.85rem',fontWeight: '600', marginTop:'0.2rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
+              <h3 style={{ color: 'white' , fontSize: '2.85rem',fontWeight: '600', marginTop:'0.1rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
               <h3 style={{ color: 'yellow', fontSize: '1.75rem', fontWeight: '600', marginTop: '1.2rem' }}>[February 28 - March 02, 2025]</h3>
-              <h3 style={{ color: 'white', fontSize: '1.75rem', fontWeight: '300', marginTop: '2rem' }}>Organized by:</h3>
+              <h3 style={{ color: 'white', fontSize: '1.75rem', fontWeight: '300', marginTop: '1.8rem' }}>Organized by:</h3>
               <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0rem' }}>Department of Biotechnology</h3>
               <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0.1rem' }}>Motilal Nehru National Institute of Technology Allahabad, Prayagraj-211004, India</h3>
               {/* <p style={{ fontSize: '1.5rem', fontWeight: '300', marginTop: '0.1rem' }}></p> */}

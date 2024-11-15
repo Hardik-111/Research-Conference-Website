@@ -3,9 +3,9 @@ import React from "react";
 
 export const Payment = () => {
   return (
-    <div className="payment-summary" id="payment">
+    <div className="payment-summary" id="payment" style={{ color:'black' }}>
       <h2>Payment Options</h2>
-      <p><strong>Offline Mode:</strong> Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
+      <p><strong >Offline Mode:</strong> Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
       <p><strong>Online Mode:</strong> Bank transfer to the following account:</p>
       <p>
         <strong>Bank Account Name:</strong> SNFCE MNNIT Allahabad <br />
@@ -18,43 +18,43 @@ export const Payment = () => {
             <h3>Fee Structure - From India(INR) </h3>
             <table className="fee-structure-table" >
               <thead >
-                <tr >
+                <tr  >
                   <th>Category</th>
                   <th>Early Bird (INR)</th>
                   <th>Late (INR)</th>
                   <th>On Spot (INR)</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody >
                 <tr>
-                  <td>Students (UG/PG)</td>
-                  <td>2500</td>
-                  <td>3000</td>
-                  <td>3500</td>
+                  <td style={{ color:'black'}}>Students (UG/PG)</td>
+                  <td style={{ color:'black'}}>2500</td>
+                  <td style={{ color:'black'}}>3000</td>
+                  <td style={{ color:'black'}}>3500</td>
                 </tr>
                 <tr>
-                  <td>PhD/Post Doctoral Fellow/Research Scholar</td>
-                  <td>3500</td>
-                  <td>4000</td>
-                  <td>5000</td>
+                  <td style={{ color:'black'}}>PhD/Post Doctoral Fellow/Research Scholar</td>
+                  <td style={{ color:'black'}}>3500</td>
+                  <td style={{ color:'black'}}>4000</td>
+                  <td style={{ color:'black'}}>5000</td>
                 </tr>
                 <tr>
-                  <td>Faculty/Scientist</td>
-                  <td>5000</td>
-                  <td>6000</td>
-                  <td>7000</td>
+                  <td style={{ color:'black'}}>Faculty/Scientist</td>
+                  <td style={{ color:'black'}}>5000</td>
+                  <td style={{ color:'black'}}>6000</td>
+                  <td style={{ color:'black'}}>7000</td>
                 </tr>
                 <tr>
-                  <td>Industries</td>
-                  <td>6000</td>
-                  <td>7000</td>
-                  <td>8000</td>
+                  <td style={{ color:'black'}}>Industries</td>
+                  <td style={{ color:'black'}}>6000</td>
+                  <td style={{ color:'black'}}>7000</td>
+                  <td style={{ color:'black'}}>8000</td>
                 </tr>
                 <tr>
-                  <td>Accompanying Person</td>
-                  <td>2500</td>
-                  <td>3000</td>
-                  <td>3500</td>
+                  <td style={{ color:'black'}}>Accompanying Person</td>
+                  <td style={{ color:'black'}}>2500</td>
+                  <td style={{ color:'black'}}>3000</td>
+                  <td style={{ color:'black'}}>3500</td>
                 </tr>
               </tbody>
             </table>
