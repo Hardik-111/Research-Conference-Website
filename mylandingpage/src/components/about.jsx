@@ -28,7 +28,7 @@ export const About = (props) => {
               className='btn btn-custom btn-lg page-scroll'
               style={{ marginTop:'6px' }}
             >
-              Learn More
+              Abstract Submission
             </a>
           </div>
         </div>

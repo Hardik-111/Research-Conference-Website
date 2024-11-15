@@ -67,9 +67,9 @@ const Header = () => {
             {/* Caption Content */}
             <div style={{ textAlign: 'center', padding: '20px',marginTop:'5rem',marginBottom:'0.5rem' }}>
               <h1 style={{ fontSize: '5rem' }}>HABIT 2025</h1>
+              <h3 style={{ color:'white' }}>  [February 28- March 2, 2025] </h3>
               <p style={{ fontSize: '3rem' }}>
                 An International Conference On Health and Agricultural Biotechnology: Interdisciplinary Trends
-                February 28- March 2, 2025
               </p>
               {/* <a
                 href="/about"
