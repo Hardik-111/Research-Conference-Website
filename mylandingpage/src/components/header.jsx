@@ -5,18 +5,21 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 // Array of images for the slider
 const sliderImages = [
-  '/img/conf/DSC_3545.jpg',
-  '/img/conf/DSC_3560.jpg',
-  '/img/conf/DSC_3570.jpg',
-  '/img/conf/DSC_3571.jpg',
-  '/img/conf/DSC_3579.jpg',
-  '/img/conf/DSC_3584.jpg',
-  '/img/conf/DSC_3601.jpg',
-  '/img/conf/DSC_3612.jpg',
-  '/img/conf/DSC_4085.jpg',
-  '/img/conf/DSC_4116.jpg',
-  // '/img/conf/my photos 2.jpg',
-  // '/img/conf/my photos1.jpg'
+  `/img/conf/pics${1}.jpg`,
+  `/img/conf/pics${2}.jpg`,
+  // `/img/conf/pics${3}.jpg`,
+  `/img/conf/pics${4}.jpg`,
+  `/img/conf/pics${5}.jpg`,
+  `/img/conf/pics${6}.jpg`,
+  `/img/conf/pics${7}.jpg`,
+  `/img/conf/pics${8}.jpg`,
+  `/img/conf/pics${9}.jpg`,
+  `/img/conf/pics${10}.jpg`,
+  `/img/conf/pics${11}.jpg`,
+  `/img/conf/pics${12}.jpg`,
+  `/img/conf/pics${13}.jpg`,
+  `/img/conf/pics${14}.jpg`,
+  `/img/conf/pics${15}.jpg`,
 ];
 
 const Header = () => {
@@ -44,7 +47,40 @@ const Header = () => {
               objectFit: 'cover',
             }}
           />
-          
+
+          {/* Caption Container with Blur Overlay */}
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: '0',
+              width: '100%',
+              height: '35%',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              backdropFilter: 'blur(4px)',
+              color: 'white',
+            }}
+          >
+            {/* Caption Content */}
+            <div style={{ textAlign: 'center', padding: '20px',marginTop:'5rem',marginBottom:'0.5rem' }}>
+              <h1 style={{ fontSize: '5rem' }}>HABIT 2025</h1>
+              <p style={{ fontSize: '3rem' }}>
+                An International Conference On Health and Agricultural Biotechnology: Interdisciplinary Trends
+                February 28- March 2, 2025
+              </p>
+              {/* <a
+                href="/about"
+                className="btn btn-custom btn-lg page-scroll"
+                style={{ backgroundColor: '#2c2d31', textDecoration: 'none', color: 'white' }}
+              >
+                Learn More
+              </a> */}
+            </div>
+          </Box>
+
           {/* Navigation Controls (Prev and Next Icons) */}
           <Box
             sx={{
@@ -66,22 +102,6 @@ const Header = () => {
             </IconButton>
           </Box>
         </Box>
-
-        {/* Caption for the slider */}
-        <div className="carousel-caption d-none d-md-block" style={{ textAlign: 'center' }}>
-          <h1 style={{ fontSize: '5rem' }}>HABIT 2025</h1>
-          <p style={{ fontSize: '3rem', color: 'white' }}>
-            An International Conference On Health and Agricultural Biotechnology: Interdisciplinary Trends
-            February 28- March 2, 2025
-          </p>
-          <a
-            href="/about"
-            className="btn btn-custom btn-lg page-scroll"
-            style={{ backgroundColor: '#2c2d31', textDecoration: 'none', color: 'white' }}
-          >
-            Learn More
-          </a>
-        </div>
       </div>
     </header>
   );
