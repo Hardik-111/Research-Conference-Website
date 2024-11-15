@@ -64,7 +64,7 @@ export const Payment = () => {
         className='btn btn-custom btn-lg page-scroll'
         style={{ alignItems: 'center' }}
       >
-        Learn More
+        Register
       </a>
     </div>
   );

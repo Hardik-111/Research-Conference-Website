@@ -8,8 +8,13 @@ const PaymentPage = () => {
   return (
     <>
       <Navigation />
-      <div id="payment-page" className="text-center" style={{ marginTop: '6rem' }}>
+      <div id="payment-page" className="text-center" style={{ marginTop: '7rem' }}>
         <div className="container">
+          <p>
+                <strong>
+                After Payment Register at: <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN</a>
+                </strong>
+            </p>
           <div className="section-title">
             <h2>Mode of Payment</h2>
             <p>Please select a payment method:</p>

@@ -24,7 +24,9 @@ export const Committee = (props) => {
                     style={{ width: '100px', height: '100px', borderRadius: '50%' }} 
                   />
                   <div className='service-desc'>
-                    <h3>{d.name}</h3>
+                    <h3 style={{ marginBottom:'0.1rem' }}>{d.name}</h3>
+                    <h3 style={{ marginTop:'0.1rem' , color:'yellow' }}>({d.post})</h3>
+                    
                     {/* Removed text */}
                   </div>
                 </div>

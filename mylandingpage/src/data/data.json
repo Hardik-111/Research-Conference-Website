@@ -19,28 +19,36 @@
 
         "Committee": [
           {
-            "name": "Prof. Rama Shanker Verma"
+            "name": "Prof. Rama Shanker Verma",
+            "post": "Patron"
           },
           {
-            "name": "Dr. Manisha Sachan"
+            "name": "Dr. Manisha Sachan",
+            "post": "Chairperson"
           },
           {
-            "name": "Dr. Ashutosh Mani"
+            "name": "Dr. Ashutosh Mani",
+            "post": "Convener"
           },
           {
-            "name": "Dr. Joyabrata Mal"
+            "name": "Dr. Joyabrata Mal",
+            "post": "Treasurer"
           },
           {
-            "name": "Dr. Dushyant Kumar (CSED)"
+            "name": "Dr. Dushyant Kumar (CSED)",
+            "post": "Organising Sceretary"
           },
           {
-            "name": "Dr. Radha Rani"
+            "name": "Dr. Radha Rani",
+            "post": "Organising Sceretary"
           },
           {
-            "name": "Dr. Rupika Sinha"
+            "name": "Dr. Rupika Sinha",
+            "post": "Organising Sceretary"
           },
           {
-            "name": "Dr. Harinder Singh (CHED)"
+            "name": "Dr. Harinder Singh (CHED)",
+            "post": "Organising Sceretary"
           }
          
         ],
