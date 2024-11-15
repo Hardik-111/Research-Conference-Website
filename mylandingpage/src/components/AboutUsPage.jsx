@@ -93,7 +93,7 @@ const AboutUsPage = () => {
 
             <h3>Registration Procedure</h3>
             <p>
-                All participants are requested to register online at <a href="https://shorturl.at/PW4YN" rel="noreferrer">https://shorturl.at/PW4YN target='_blank'</a>. 
+                All participants are requested to register online at <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN </a>. 
                 Participants should submit the printed filled registration form along with DD (offline mode) or electronic receipt 
                 (online mode).<br></br>
                 Please mention <b>HABIT 2025</b> in transaction remarks.

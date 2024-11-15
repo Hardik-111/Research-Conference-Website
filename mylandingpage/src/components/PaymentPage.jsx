@@ -137,7 +137,13 @@ const PaymentPage = () => {
    
           <p>Registration Fee includes registration charges, refreshments served during the conference, conference kit and entry to cultural events. All payment details shall be mentioned by participant in the online registration form.
           </p>
-
+          <h3>Registration Procedure</h3>
+            <p>
+                All participants are requested to register online at <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN </a>. 
+                Participants should submit the printed filled registration form along with DD (offline mode) or electronic receipt 
+                (online mode).<br></br>
+                Please mention <b>HABIT 2025</b> in transaction remarks.
+            </p>
           <div className="awards-and-honors">
             <h3>Awards and Honors</h3>
             <p>
