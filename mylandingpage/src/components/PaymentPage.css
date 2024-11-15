@@ -18,6 +18,7 @@
   .fee-structure-table th,
   .payment-info-table td,
   .fee-structure-table td {
+    color:#454545;
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
@@ -25,7 +26,8 @@
   
   .payment-info-table th,
   .fee-structure-table th {
-    background-color: #f2f2f2;
+    color:white;
+    background-color: #454545;
   }
 /* PaymentPage.css */
 .payment-summary {
@@ -53,6 +55,7 @@
   }
   
   .payment-summary th {
-    background-color: #f2f2f2;
+    color:#f2f2f2;
+    background-color: #454545;
   }
     

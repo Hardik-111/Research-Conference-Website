@@ -8,7 +8,7 @@ export const About = (props) => {
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
-              <h2>About Us</h2>
+              <h2>Welcome to HABIT-2025</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <h3>Thrust Areas of HABIT-2025</h3>
               <div className='list-style'>

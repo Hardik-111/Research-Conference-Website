@@ -34,9 +34,9 @@ const Header = () => {
   };
 
   return (
-    <header id="header" style={{ marginTop: '82px' }}> {/* Space from fixed nav bar */}
+    <header id="header" style={{ marginTop: '70px' }}> {/* Space from fixed nav bar */}
       <div className="intro">
-        <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center', width: '100%' , height:'70%'}}>
+        <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center', width: '100%' , height:'80%'}}>
           {/* Display image as an <img> element */}
           <img
             src={sliderImages[sliderIndex]}
@@ -67,7 +67,7 @@ const Header = () => {
             <div style={{ textAlign: 'center' }}>
               <h1 style={{ fontSize: '4.35rem', fontWeight: 'bold', marginTop: '0.8rem'}}>HABIT-2025</h1>
               <h3 style={{ color: 'white' , fontSize: '2.85rem',fontWeight: '600', marginTop:'0.2rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
-              <h3 style={{ color: 'yellow', fontSize: '1.75rem', fontWeight: '600', marginTop: '1.2rem' }}>[February 28 - March 2, 2025]</h3>
+              <h3 style={{ color: 'yellow', fontSize: '1.75rem', fontWeight: '600', marginTop: '1.2rem' }}>[February 28 - March 02, 2025]</h3>
               <h3 style={{ color: 'white', fontSize: '1.75rem', fontWeight: '300', marginTop: '2rem' }}>Organized by:</h3>
               <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0rem' }}>Department of Biotechnology</h3>
               <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0.1rem' }}>Motilal Nehru National Institute of Technology Allahabad, Prayagraj-211004, India</h3>

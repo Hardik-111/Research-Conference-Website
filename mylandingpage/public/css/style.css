@@ -66,18 +66,18 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 8px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
     background-color: #fff;
     border-color: rgba(231, 231, 231, 0);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Increased shadow for a darker effect */
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3); /* Increased shadow for a darker effect */
 }
 
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
@@ -87,11 +87,11 @@ hr {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	color: #555;
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 400;
 	padding: 6px 2px;
 	border-radius: 0;
-	margin: 9px 18px 0 18px;
+	margin: 7px 12px 0 12px;
 	align-items:flex-end;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
@@ -184,13 +184,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Header Section */
+
+
 /* Header Section */
 .intro {
 	display: table;
 	position: relative;
 	width: 100%;
-	padding: 0;
+	padding: 2px;
 	background-color: #e5e5e5;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -506,9 +507,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 10px 0 0 0;
 	color: #888;
 }
+
+
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 70px 0 45px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
 }
@@ -520,7 +523,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #contact h2 {
 	color: #fff;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
@@ -557,7 +560,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: #fff;
 }
 label {
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
@@ -598,15 +601,15 @@ color: #777;
 color: #777;
 }
 #contact .contact-item {
-	margin: 20px 0;
+	margin: 8px 0;
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	display: block;
 }
 #contact .contact-item i.fa {
-	margin-right: 10px;
+	margin-right: 8px;
 }
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.15);
@@ -632,6 +635,7 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
+
 /* Footer Section*/
 #footer {
 	background: #fff;

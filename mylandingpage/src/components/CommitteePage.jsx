@@ -59,16 +59,16 @@ export const CommitteePage = () => {
       <div id='committee' className='text-center'>
         <div className='container'>
           <div className='section-title' style={{ marginBottom: '6rem' }}>
-            <h2>Organizing Committee</h2>
-            <p><b>Patron:</b> Prof. Rama Shanker Verma, Director, MNNIT Allahabad</p>
-            <p><b>Chairperson:</b> Dr. Manisha Sachan, Head, Department of Biotechnology</p>
-            <p><b>Convener:</b> Dr. Ashutosh Mani</p>
-            <p><b>Treasurer:</b> Dr. Joyabrata Mal</p>
+          <h2 >Organizing Committee</h2>
+          <p style={{ color:'white' }}><b>Patron:</b> Prof. Rama Shanker Verma, Director, MNNIT Allahabad</p>
+          <p style={{ color:'white' }}><b>Chairperson:</b> Dr. Manisha Sachan, Head, Department of Biotechnology</p>
+          <p style={{ color:'white' }}><b>Convener:</b> Dr. Ashutosh Mani</p>
+          <p style={{ color:'white' }}><b>Treasurer:</b> Dr. Joyabrata Mal</p>
           </div>
 
-          <h2>Organizing Secretaries</h2>
+          <h2 style={{ color: 'white !important'  }}>Organizing Secretaries</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white', marginBottom: '3rem' }}>
-          <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
+          <thead style={{ color:'white' ,backgroundColor:'#454545' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
@@ -76,7 +76,7 @@ export const CommitteePage = () => {
             </thead>
             <tbody>
               {organizingSecretaries.map((secretary, index) => (
-                <tr key={index}>
+                <tr key={index} style={{ color: '#454545' }}>
                   <td>{index + 1}</td>
                   <td>{secretary.name}</td>
                 </tr>
@@ -84,9 +84,9 @@ export const CommitteePage = () => {
             </tbody>
           </table>
 
-          <h2>Advisory Committee</h2>
+          <h2 style={{ color: 'white'  }}>Advisory Committee</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white', marginBottom: '3rem' }}>
-            <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
+            <thead style={{ color:'white' ,backgroundColor:'#454545' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
@@ -95,7 +95,7 @@ export const CommitteePage = () => {
             </thead>
             <tbody>
               {advisoryCommittee.map((member, index) => (
-                <tr key={index}>
+                <tr key={index} style={{ color: '#454545' }}>
                   <td>{index + 1}</td>
                   <td>{member.name}</td>
                   <td>{member.country}</td>
@@ -104,9 +104,9 @@ export const CommitteePage = () => {
             </tbody>
           </table>
 
-          <h2 style={{ marginBottom: '3rem' }}>Speakers in HABIT 2025</h2>
+          <h2 style={{ color: 'white' , marginBottom: '3rem' }}>Speakers in HABIT 2025</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white' }}>
-          <thead style={{ color:'white' ,backgroundColor:'#363636' }}>
+          <thead style={{ color:'white' ,backgroundColor:'#454545' }}>
               <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
@@ -115,7 +115,7 @@ export const CommitteePage = () => {
             </thead>
             <tbody>
               {speakers.map((speaker, index) => (
-                <tr key={index}>
+                <tr key={index} style={{ color: '#454545' }}>
                   <td>{index + 1}</td>
                   <td>{speaker.name}</td>
                   <td>{speaker.institute}</td>

@@ -4,12 +4,12 @@ export const Committee = (props) => {
   return (
     <div id='committee' className='text-center'>
       <div className='container'>
-        <div className='section-title' style={{ marginBottom: '6rem' }}>
-          <h2>Organizing Committee</h2>
-          <p><b>Patron:</b> Prof. Rama Shanker Verma, Director, MNNIT Allahabad</p>
-          <p><b>Chairperson:</b> Dr. Manisha Sachan, Head, Department of Biotechnology</p>
-          <p><b>Convener:</b> Dr. Ashutosh Mani</p>
-          <p><b>Treasurer:</b> Dr. Joyabrata Mal</p>
+        <div className='section-title' style={{ marginBottom: '6rem' ,color:'white'}}>
+          <h2 >Organizing Committee</h2>
+          <p style={{ color:'white' }}><b>Patron:</b> Prof. Rama Shanker Verma, Director, MNNIT Allahabad</p>
+          <p style={{ color:'white' }}><b>Chairperson:</b> Dr. Manisha Sachan, Head, Department of Biotechnology</p>
+          <p style={{ color:'white' }}><b>Convener:</b> Dr. Ashutosh Mani</p>
+          <p style={{ color:'white' }}><b>Treasurer:</b> Dr. Joyabrata Mal</p>
         </div>
 
         <div className='row'>

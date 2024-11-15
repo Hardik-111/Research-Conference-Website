@@ -14,11 +14,11 @@ export const Payment = () => {
         <strong>IFSC Code:</strong> SBIN0002580
       </p>
 
-      <div className="fee-structure">
+      <div className="fee-structure" >
             <h3>Fee Structure - From India(INR) </h3>
-            <table className="fee-structure-table">
-              <thead>
-                <tr>
+            <table className="fee-structure-table" >
+              <thead >
+                <tr >
                   <th>Category</th>
                   <th>Early Bird (INR)</th>
                   <th>Late (INR)</th>

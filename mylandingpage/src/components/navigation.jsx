@@ -38,16 +38,16 @@ export const Navigation = (props) => {
             {/* For the landing page, use smooth scroll to sections; for other pages, use regular routes */}
             <li>
               {isLandingPage ? (
-                <a href='#features' className='page-scroll'>Home</a>
+                <a href='#' className='page-scroll'>Home</a>
               ) : (
                 <Link to='/'>Home</Link>
               )}
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#about' className='page-scroll'>About</a>
+                <a href='#about' className='page-scroll'>Publications</a>
               ) : (
-                <Link to='/about'>About</Link>
+                <Link to='/about'>Publications</Link>
               )}
             </li>
             <li>

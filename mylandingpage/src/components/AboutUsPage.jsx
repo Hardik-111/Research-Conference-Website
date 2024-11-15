@@ -23,7 +23,7 @@ const AboutUsPage = () => {
                 It gives us immense pleasure to invite you to join HABIT 2025, 
                 "International Conference on Health and Agricultural Biotechnology: Innovations and Trends", 
                 to be held at one of the most ancient and culturally rich cities of India "Kumbh Nagari", Prayagraj 
-                from February 28 to March 2, 2025. The conference is being organized by the Department of 
+                from February 28 to March 02, 2025. The conference is being organized by the Department of 
                 Biotechnology, Motilal Nehru National Institute of Technology (MNNIT) Allahabad with an aim to 
                 promote excellence in scientific knowledge and innovation in biotechnology and related disciplines 
                 to motivate young researchers. The conference also envisages providing a forum to researchers 
