@@ -7,7 +7,17 @@ const AboutUsPage = () => {
     return (
         <>
         <Navigation/>
-        <div className="about-container" style={{ marginTop:'6rem'}}>
+        <div className="about-container" style={{ marginTop:'8rem'}}>
+        <p>
+                <strong>
+                    Submit Abstract at: <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank' rel="noreferrer">https://forms.gle/nupHfwqcnciCd7U8A</a>
+                </strong>
+            </p>
+            <p>
+                <strong>
+                    Register at: <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN</a>
+                </strong>
+            </p>
             <h1>About the Conference</h1>
             <p>
                 It gives us immense pleasure to invite you to join HABIT 2025, 
