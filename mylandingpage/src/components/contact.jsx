@@ -19,14 +19,11 @@ export const Contact = () => {
 
               {/* Contact Info Section (Address) */}
               <div className="col-md-8">
-                <h3>Contact Info</h3>
+                <h3>Contact Details</h3>
                 <p>
-                  <span>
-                    <i className="fa fa-map-marker"></i> Address
-                  </span>
-                  Dr. Ashutosh Mani
+                <strong style={{ color:'white' }}>Dr. Ashutosh Mani</strong>
                   <br />
-                  Convener, HABIT-2025
+                  <strong style={{ color:'white' }}> Convener, HABIT-2025 </strong>
                   <br />
                   Department of Biotechnology
                   <br />

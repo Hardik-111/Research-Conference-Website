@@ -34,9 +34,9 @@ const Header = () => {
   };
 
   return (
-    <header id="header" style={{ marginTop: '85px' }}> {/* Space from fixed nav bar */}
+    <header id="header" style={{ marginTop: '82px' }}> {/* Space from fixed nav bar */}
       <div className="intro">
-        <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center', width: '100%' }}>
+        <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center', width: '100%' , height:'70%'}}>
           {/* Display image as an <img> element */}
           <img
             src={sliderImages[sliderIndex]}
@@ -54,30 +54,24 @@ const Header = () => {
               position: 'absolute',
               bottom: '0',
               width: '100%',
-              height: '35%',
+              height: '45%',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              
               backgroundColor: 'rgba(0, 0, 0, 0.5)',
               backdropFilter: 'blur(4px)',
               color: 'white',
             }}
           >
             {/* Caption Content */}
-            <div style={{ textAlign: 'center', padding: '20px',marginTop:'5rem',marginBottom:'0.5rem' }}>
-              <h1 style={{ fontSize: '5rem' }}>HABIT 2025</h1>
-              <h3 style={{ color:'white' }}>  [February 28- March 2, 2025] </h3>
-              <p style={{ fontSize: '3rem' }}>
-                An International Conference On Health and Agricultural Biotechnology: Interdisciplinary Trends
-              </p>
-              {/* <a
-                href="/about"
-                className="btn btn-custom btn-lg page-scroll"
-                style={{ backgroundColor: '#2c2d31', textDecoration: 'none', color: 'white' }}
-              >
-                Learn More
-              </a> */}
+            <div style={{ textAlign: 'center' }}>
+              <h1 style={{ fontSize: '4.5rem', fontWeight: 'bold', marginTop: '0.8rem'}}>HABIT-2025</h1>
+              <h3 style={{ color: 'white' ,fontWeight: '600', marginTop:'0.2rem' }}>International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends</h3>
+              <h3 style={{ color: 'yellow', fontSize: '1.75rem', fontWeight: '600', marginTop: '1.2rem' }}>[February 28 - March 2, 2025]</h3>
+              <h3 style={{ color: 'white', fontSize: '1.75rem', fontWeight: '300', marginTop: '2rem' }}>Organized by:</h3>
+              <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0rem' }}>Department of Biotechnology</h3>
+              <h3 style={{ color: 'white', fontSize: '2rem', fontWeight: '500', marginTop: '0.1rem' }}>Motilal Nehru National Institute of Technology Allahabad, Prayagraj-211004, India</h3>
+              {/* <p style={{ fontSize: '1.5rem', fontWeight: '300', marginTop: '0.1rem' }}></p> */}
             </div>
           </Box>
 
