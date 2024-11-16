@@ -3,7 +3,6 @@ import { Navigation } from './navigation';  // Import the existing Navigation co
 import { Footer } from './footer';  // Import the existing Footer component
 import "./VenuePage.css"
 
-
 export const VenuePage = () => {
   return (
     <div>
@@ -12,7 +11,16 @@ export const VenuePage = () => {
 
       <div id="venue-details" className="text-center" style={{ marginTop: '8.5rem' }}>
         <div className="container">
+          {/* Accommodation Section */}
           <div className="section-title">
+            <h2>Accommodation</h2>
+          </div>
+          <p>
+            Accommodation will be provided in the Institute on a paid basis, as per availability. 
+            Please contact the organizers for more details.
+          </p>
+
+          <div className="section-title" style={{ marginTop: '5rem' }}>
             <h2>How to Reach</h2>
           </div>
 
@@ -59,7 +67,7 @@ export const VenuePage = () => {
               <div className="section-title" style={{ marginTop: '5rem', marginBottom:'2rem' }}>
                 <h2>The Sangam City</h2>
               </div>
-              <img src='./img/conf/15.jpg' className='img-responsive' style={{ width:'100%' , height:'50rem' , marginBottom:'4rem'}} alt='' />{' '}
+              <img src='./img/bridge.jpg' className='img-responsive' style={{ width:'100%' , height:'50rem' , marginBottom:'4rem'}} alt='' />{' '}
               <p>
                 Prayagraj is the sacred city where three greatest rivers of India meet, and continue their journey 
                 further. The city's original name Prayaga or "place of sacrifice" comes from its location at the 
@@ -82,15 +90,13 @@ export const VenuePage = () => {
                 The "Kumbh Nagari" Allahabad is a major tourist attraction in India, drawing visitors from all over the world. 
                 The major tourist attractions in the city are:
               </p>
-              <ul>
+              <ul style={{ color:'black' }}>
                 <li><strong>Allahabad Fort:</strong> Situated on the bank of the Yamuna, near Sangam, this magnificent fort was built by Akbar in 1583.</li>
                 <li><strong>Ashoka Pillar:</strong> Stands tall inside the Allahabad Fort; it is a polished sandstone pillar built by Ashoka.</li>
                 <li><strong>Swaraj Bhawan and Anand Bhawan:</strong> Legacies of Motilal Nehru, a freedom fighter and father of Jawaharlal Nehru, dedicated to the nation by them.</li>
                 <li><strong>Allahabad Museum:</strong> Near Chandra Shekhar Azad Park, preserves the paintings of Nicholas Roerich, terracotta figurines, Rajasthani miniatures, coins, and stone sculptures from the 2nd century BC till date.</li>
                 <li><strong>Varanasi:</strong> An ancient, religious, and culturally rich city on the banks of the Ganges, located 120 km from Allahabad.</li>
               </ul>
-
-             
             </div>
           </div>
         </div>

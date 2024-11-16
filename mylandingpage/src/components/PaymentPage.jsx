@@ -22,7 +22,7 @@ const PaymentPage = () => {
 
           <div className="payment-methods">
             <h3>Offline Mode</h3>
-            <p>Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
+            <p>Demand draft in favor of <strong> SNFCE MNNIT Allahabad </strong>payable at Allahabad.</p>
 
             <h3>Online Mode</h3>
             <p>Transfer to the following bank details:</p>

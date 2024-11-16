@@ -39,7 +39,7 @@ export const Committee = (props) => {
         className='btn btn-custom btn-lg page-scroll'
         style={{ backgroundColor: '#2c2d31' }}
       >
-       Explore More
+       Our Speakers
       </a>
     </div>
   );

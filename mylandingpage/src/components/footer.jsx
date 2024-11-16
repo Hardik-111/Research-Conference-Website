@@ -6,7 +6,7 @@ export const Footer = (props) => {
         <div className='container text-center' style={{ backgroundColor:'#2c2d31' ,width:'100%', height:'6%' , position:'absolute' ,margin:"0rem" }}>
           <p style={{ color:'white',  margin:'1rem' }}>
             &copy; Copyright MNNIT 2025. All Rights Reserved
-            Designed by MNNIT Web Team 
+            Designed by MNNIT
             
           </p>
         </div>

@@ -20,11 +20,11 @@ const AboutUsPage = () => {
             </p>
             <h1>About the Conference</h1>
             <p>
-                It gives us immense pleasure to invite you to join HABIT 2025, 
+                It gives us immense pleasure to invite you to join <strong>HABIT 2025</strong>, 
                 "International Conference on Health and Agricultural Biotechnology: Innovations and Trends", 
                 to be held at one of the most ancient and culturally rich cities of India "Kumbh Nagari", Prayagraj 
-                from February 28 to March 02, 2025. The conference is being organized by the Department of 
-                Biotechnology, Motilal Nehru National Institute of Technology (MNNIT) Allahabad with an aim to 
+                from <strong> February 28 to March 02, 2025.</strong> The conference is being organized by the <strong>Department of 
+                Biotechnology, Motilal Nehru National Institute of Technology (MNNIT) Allahabad</strong> with an aim to 
                 promote excellence in scientific knowledge and innovation in biotechnology and related disciplines 
                 to motivate young researchers. The conference also envisages providing a forum to researchers 
                 around the globe to explore and discuss various aspects of recent advances in the field of food, 
@@ -34,7 +34,7 @@ const AboutUsPage = () => {
                 parallel sessions. Each session will be addressed by outstanding experts who will highlight recent 
                 advances in various facets of biotechnology. It will also offer budding scientists an opportunity 
                 to present their work in front of eminent experts of their field and compete for various awards 
-                like HABIT Young Scientist Awards-2025.
+                like <strong> HABIT Young Scientist Awards-2025.</strong>
             </p>
 
             <h2>Scope of HABIT-2025</h2>
@@ -51,7 +51,7 @@ const AboutUsPage = () => {
                 <li>Bioinformatics, Computational Biology & Chemistry</li>
                 <li>Molecular Biology, Nanotechnology and Material Science</li>
                 <li>Environmental and Industrial Biotechnology</li>
-                <li>Interdisciplinary approaches in health, food, agriculture, and environment</li>
+                <li>Interdisciplinary approaches in Health, Food, Agriculture, and Environment</li>
             </ul>
 
             <h2>About the Institute</h2>
@@ -91,21 +91,21 @@ const AboutUsPage = () => {
                 and training.
             </p>
 
-            <h3>Paper Submission</h3>
+            <h2>Paper Submission</h2>
             <p>
-                Please submit the abstract (not exceeding 250 words) online at <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank' rel="noreferrer">here</a>. 
+                Please submit the abstract (not exceeding <strong>250 words</strong>) online at <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank' rel="noreferrer">here</a>. 
                 Candidates should register at <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN</a> and then 
                 login to submit the abstract. The notification regarding the nature of the presentation (oral/poster) 
-                will be communicated well in advance. The size of the poster will be 90x90cm for all poster presentations. 
+                will be communicated well in advance. The size of the poster will be <strong>90x90cm</strong> for all poster presentations. 
                 It should state title, name, and address of the authors, short introduction, methods and materials, results, 
                 and conclusions.
             </p>
 
-            <h3>Registration Procedure</h3>
+            <h2>Registration Procedure</h2>
             <p>
                 All participants are requested to register online at <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN </a>. 
-                Participants should submit the printed filled registration form along with DD (offline mode) or electronic receipt 
-                (online mode).<br></br>
+                Participants should submit the printed filled registration form along with <strong>DD (offline mode)</strong> or <strong>electronic receipt 
+                (online mode).</strong><br></br>
                 Please mention <b>HABIT 2025</b> in transaction remarks.
             </p>
 
@@ -129,6 +129,25 @@ const AboutUsPage = () => {
                     necessary material for poster display will be provided.
                 </p>
             </div>
+
+            <div className="publication-section">
+                <h2>Publication of Conference Papers</h2>
+                <p>
+                    Selected papers from the HABIT 2025, after approval of <strong>Editor-in-Chief (EIC)</strong>, 
+                    will be invited to contribute to special issues in reputed journals, including:
+                </p>
+                <ul>
+                    <li><strong>Current Topics in Medicinal Chemistry (Bentham)</strong></li>
+                    <li><strong>Plant Gene (Elsevier)</strong></li>
+                </ul>
+                <h3 style={{ fontSize:'18px'}}>Conference Proceedings</h3>
+                <p>
+                    Structured abstracts from the conference will be included in the <strong>Proceedings of HABIT 2025</strong>. 
+                    The ISSN/ISBN indexed proceedings will be published in online/offline mode by a reputed publisher. 
+                    The corresponding author will be contacted for further processing, including copyright and publication charges, if any.
+                </p>
+            </div>
+
         </div>
         <Footer/>
         </>
