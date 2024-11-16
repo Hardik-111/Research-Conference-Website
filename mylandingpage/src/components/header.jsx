@@ -27,8 +27,8 @@ const Header = () => {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: 'rgba(0, 0, 0, 0.5)',
-              backdropFilter: 'blur(3.5px)',
+              backgroundColor: 'rgba(0, 0, 0, 0.35)',
+              backdropFilter: 'blur(3px)',
               color: 'white',
             }}
           >

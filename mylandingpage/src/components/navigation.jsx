@@ -29,7 +29,7 @@ export const Navigation = (props) => {
               alt='Logo'
               style={{ height: '58px', marginRight: '5px' }} // Adjust height and margin as needed
             />
-            <span className='title'>HABIT 2025</span>
+            <span className='title'>HABIT-2025</span>
           </Link>
         </div>
 
