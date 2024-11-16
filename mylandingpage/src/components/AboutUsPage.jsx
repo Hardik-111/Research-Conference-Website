@@ -7,7 +7,7 @@ const AboutUsPage = () => {
     return (
         <>
         <Navigation/>
-        <div className="about-container" style={{ marginTop:'8rem'}}>
+        <div className="about-container" style={{ marginTop:'8.5rem'}}>
         <p>
                 <strong>
                     Submit Abstract at: <a href="https://forms.gle/nupHfwqcnciCd7U8A" target='_blank' rel="noreferrer">https://forms.gle/nupHfwqcnciCd7U8A</a>
@@ -18,7 +18,14 @@ const AboutUsPage = () => {
                     Register at: <a href="https://shorturl.at/PW4YN" target='_blank' rel="noreferrer">https://shorturl.at/PW4YN</a>
                 </strong>
             </p>
-            <h1>About the Conference</h1>
+            <div className='about-date' style={{ marginBottom:'4rem'}}>
+            <h2>Important Dates to Remember</h2>
+            <p><strong>Abstract Submission:</strong> <span style={{ color:'red' , fontWeight:'500' }}>December 30, 2024 </span></p>
+            <p><strong>Acceptance and Notification:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 15, 2025 </span></p>
+            <p><strong>Early Bird Registration:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 20, 2025 </span></p>
+            </div>
+
+            <h2 style={{ fontSize:'24px'  }}>About the Conference</h2>
             <p>
                 It gives us immense pleasure to invite you to join <strong>HABIT 2025</strong>, 
                 "International Conference on Health and Agricultural Biotechnology: Innovations and Trends", 
@@ -109,10 +116,6 @@ const AboutUsPage = () => {
                 Please mention <b>HABIT 2025</b> in transaction remarks.
             </p>
 
-            <h2>Important Dates to Remember</h2>
-            <p><strong>Abstract Submission:</strong> December 30, 2024</p>
-            <p><strong>Acceptance and Notification:</strong> January 15, 2025</p>
-            <p><strong>Early Bird Registration:</strong> January 20, 2025</p>
 
             <div className="guidelines">
                 <h3>Guidelines for Abstract and Poster Submission</h3>
