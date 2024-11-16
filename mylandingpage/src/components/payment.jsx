@@ -5,7 +5,7 @@ export const Payment = () => {
   return (
     <div className="payment-summary" id="payment" style={{ color:'black' }}>
       <h2>Payment Options</h2>
-      <p><strong >Offline Mode:</strong> Demand draft in favor of HABIT 2025 payable at Allahabad.</p>
+      <p><strong >Offline Mode:</strong> Demand draft in favor of <strong style={{ color:'#0056b3' }}>SNFCE MNNIT</strong> payable at Allahabad.</p>
       <p><strong>Online Mode:</strong> Bank transfer to the following account:</p>
       <p>
         <strong>Bank Account Name:</strong> SNFCE MNNIT Allahabad <br />

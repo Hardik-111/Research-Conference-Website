@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header id="header" style={{ marginTop: '70px' }}> {/* Space from fixed nav bar */}
       <div className="intro">
-        <Box
+        <Box className='img-responsive'
           sx={{
             position: 'relative',
             display: 'flex',
