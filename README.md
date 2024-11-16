@@ -1,6 +1,8 @@
 # International Conference on HABIT 2025
 
-![HABIT 2025 Conference](https://github.com/user-attachments/assets/a823832f-2589-4715-8ba0-9f8b6817ce29)
+![HABIT-2025 Conference](https://github.com/user-attachments/assets/273d1a98-4500-4123-a169-055eb774ca12)
+
+
 
 Welcome to the repository for the **International Conference on HABIT 2025**! This conference, titled *"International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends"*, will focus on advancing scientific innovation in biotechnology. It is organized by the **Department of Biotechnology**, Motilal Nehru National Institute of Technology (MNNIT), Allahabad.
 
