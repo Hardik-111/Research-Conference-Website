@@ -18,7 +18,7 @@ export const Contact = () => {
 
               {/* Contact Info Section (Address) */}
               <div className="col-md-8">
-                <h3  style={{ color: '#FAFA3', fontSize:'25px' , fontWeight:'600', marginBottom:'2rem',  paddingBottom: '0px' }}>Contact Details</h3>
+                <h3  style={{ color: 'yellow', fontSize:'25px' , fontWeight:'600', marginBottom:'2rem',  paddingBottom: '0px' }}>Contact Details</h3>
                 <p style={{ color: 'white', marginTop:'1rem' }}>
                   <strong>Dr. Ashutosh Mani</strong>
                   <br />
