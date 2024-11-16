@@ -59,11 +59,11 @@ export const Contact = () => {
                     </p>
                   </div>
                   <div className="contact-item">
-                    <p style={{ color:'white' }}>
+                    <p >
                       <span style={{ fontWeight:'700'}}>
                         <i className="fa fa-envelope-o"></i> Email
                       </span>
-                      <a href="mailto:2025habit@gmail.com" >
+                      <a href="mailto:2025habit@gmail.com" style={{ color:'white' }}>
                         2025habit@gmail.com
                       </a>
                     </p>
