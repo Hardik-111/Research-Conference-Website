@@ -80,16 +80,16 @@ export const Navigation = (props) => {
             </li>
             {/* Download Brochure link */}
             <li>
-              <a
-                href='/brochure_updated_conference.pptx'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='page-scroll'
-                style={{ fontWeight: 'bold', color: '#ff6f61' }} // Optional: customize style
-              >
-                Brochure
-              </a>
-            </li>
+            <a
+              href='/Brochure_HABIT-2025.pdf'
+              download
+              className='page-scroll'
+              style={{ fontWeight: 'bold', color: '#ff6f61' }} // Optional: customize style
+            >
+              Brochure
+            </a>
+          </li>
+
           </ul>
         </div>
       </div>
