@@ -3,9 +3,10 @@ import { Box } from '@mui/material';
 
 const Header = () => {
   return (
-    <header id="header" style={{ marginTop: '70px' }}> {/* Space from fixed nav bar */}
+    <header id="header" style={{ marginTop: '70px', marginBottom: '5px' }}> {/* Space from fixed navbar */}
       <div className="intro">
-        <Box className='img-responsive'
+        <Box
+          className="img-responsive"
           sx={{
             position: 'relative',
             display: 'flex',
@@ -46,6 +47,34 @@ const Header = () => {
                 Motilal Nehru National Institute of Technology Allahabad, Prayagraj-211004, India
               </h3>
             </div>
+          </Box>
+        </Box>
+      </div>
+
+      {/* Floating Message */}
+      <div id="about-1" style={{ marginTop: '2rem', marginBottom: '4rem', position: 'relative' }}>
+        <Box
+          sx={{
+            width: '100%',
+            maxWidth: '600px', // Limit the width of the floating message
+            margin: '0 auto',
+            position: 'relative',
+            overflow: 'hidden',
+            whiteSpace: 'nowrap',
+            color: 'red',
+            fontWeight: 'bold',
+            fontSize: '2rem',
+            backgroundColor: '#fff',
+            padding: '5px 15px',
+          }}
+        >
+          <Box
+            sx={{
+              display: 'inline-block',
+              animation: 'marquee 7s linear infinite', // Animation for movement
+            }}
+          >
+            For discount on Group Registrations, contact us!
           </Box>
         </Box>
       </div>

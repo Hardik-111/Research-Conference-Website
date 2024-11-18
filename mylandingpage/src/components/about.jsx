@@ -40,11 +40,9 @@ export const About = (props) => {
   }, []);
 
   return (
-    <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {/* Slider for About Section */}
             <Box sx={{ position: 'relative', width: '100%', height: '400px' }}>
               <img
                 src={sliderImages[sliderIndex]}
@@ -52,7 +50,6 @@ export const About = (props) => {
                 alt={`Slide ${sliderIndex + 1}`}
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
-              {/* Navigation Controls */}
               <Box
                 sx={{
                   position: 'absolute',
@@ -96,15 +93,24 @@ export const About = (props) => {
             >
               Abstract Submission
             </a>
-            <div className='about-date' >
-            <h3 style={{ marginTop:'3rem', marginBottom:'0.5rem' }}>Important Dates to Remember</h3>
-            <p style={{ margin:'0',marginTop:'1.5rem', marginBottom:'0.5rem' }}><strong>Abstract Submission:</strong> <span style={{ color:'red' , fontWeight:'500' }}>December 30, 2024 </span></p>
-            <p style={{ margin:'0',marginBottom:'0.5rem' }}><strong>Acceptance and Notification:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 15, 2025 </span></p>
-            <p style={{ margin:'0', marginBottom:'0.5rem' }}><strong>Early Bird Registration:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 20, 2025 </span></p>
+            <div className="about-date">
+              <h3 style={{ marginTop: '3rem', marginBottom: '0.5rem' }}>Important Dates to Remember</h3>
+              <p style={{ margin: '0', marginTop: '1.5rem', marginBottom: '0.5rem' }}>
+                <strong>Abstract Submission:</strong>{' '}
+                <span style={{ color: 'red', fontWeight: '500' }}>December 30, 2024 </span>
+              </p>
+              <p style={{ margin: '0', marginBottom: '0.5rem' }}>
+                <strong>Acceptance and Notification:</strong>{' '}
+                <span style={{ color: 'red', fontWeight: '500' }}>January 15, 2025 </span>
+              </p>
+              <p style={{ margin: '0', marginBottom: '0.5rem' }}>
+                <strong>Early Bird Registration:</strong>{' '}
+                <span style={{ color: 'red', fontWeight: '500' }}>January 20, 2025 </span>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
