@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, IconButton } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import CloseIcon from '@mui/icons-material/Close';
 
 // Array of images for the slider
 const sliderImages = [
@@ -24,6 +25,7 @@ const sliderImages = [
 
 export const About = (props) => {
   const [sliderIndex, setSliderIndex] = useState(0);
+  const [showFloatingMessage, setShowFloatingMessage] = useState(true);
 
   const handleNext = () => {
     setSliderIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
@@ -40,9 +42,11 @@ export const About = (props) => {
   }, []);
 
   return (
+    <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
+            {/* Slider for About Section */}
             <Box sx={{ position: 'relative', width: '100%', height: '400px' }}>
               <img
                 src={sliderImages[sliderIndex]}
@@ -50,6 +54,7 @@ export const About = (props) => {
                 alt={`Slide ${sliderIndex + 1}`}
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
+              {/* Navigation Controls */}
               <Box
                 sx={{
                   position: 'absolute',
@@ -111,6 +116,6 @@ export const About = (props) => {
           </div>
         </div>
       </div>
-    // </div>
+    </div>
   );
 };

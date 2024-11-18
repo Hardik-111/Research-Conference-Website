@@ -45,7 +45,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               {isLandingPage ? (
-                <a href='#about' className='page-scroll'>Publications</a>
+                <a href='/#about' className='page-scroll'>Publications</a>
               ) : (
                 <Link to='/about'>Publications</Link>
               )}
