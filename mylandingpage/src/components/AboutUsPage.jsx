@@ -20,9 +20,34 @@ const AboutUsPage = () => {
             </p>
             <div className='about-date' style={{ marginBottom:'4rem'}}>
             <h2>Important Dates to Remember</h2>
-            <p><strong>Abstract Submission:</strong> <span style={{ color:'red' , fontWeight:'500' }}>December 30, 2024 </span></p>
-            <p><strong>Acceptance and Notification:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 15, 2025 </span></p>
-            <p><strong>Early Bird Registration:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 20, 2025 </span></p>
+            <p>
+                    <strong>Abstract Submission:</strong> 
+                    <span style={{ color:'red', fontWeight:'500' }}> January 20, 2025 </span>
+                    <span
+                        style={{
+                            marginLeft: '15px',
+                            fontSize: '16px',
+                            fontWeight:'500',
+                            color: 'darkred',
+                            animation: 'blink 1s linear infinite',
+                            position: 'relative',
+                            top: '0',
+                        }}
+                    >
+                        *EXTENDED TILL JAN 20, 2025
+                    </span>
+                </p>
+                <style>
+        {`
+          @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+          }
+        `}
+      </style>
+            {/* <p><strong>Abstract Submission:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 20, 2025 </span></p> */}
+            <p><strong>Acceptance and Notification:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 20, 2025 </span></p>
+            <p><strong>Early Bird Registration:</strong> <span style={{ color:'red' , fontWeight:'500' }}>January 25, 2025 </span></p>
             </div>
 
             <h2 style={{ fontSize:'24px'  }}>About the Conference</h2>

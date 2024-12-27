@@ -6,21 +6,21 @@ import CloseIcon from '@mui/icons-material/Close';
 
 // Array of images for the slider
 const sliderImages = [
- `/img/conf/pics${1}.jpg`,
- `/img/conf/pics${2}.jpg`,
- `/img/conf/pics${3}.jpg`,
- `/img/conf/pics${4}.JPG`,
- `/img/conf/pics${5}.JPG`,
- `/img/conf/pics${6}.JPG`,
- `/img/conf/pics${7}.JPG`,
- `/img/conf/pics${8}.JPG`,
- `/img/conf/pics${9}.JPG`,
- `/img/conf/pics${10}.JPG`,
- `/img/conf/pics${11}.JPG`,
- `/img/conf/pics${12}.JPG`,
- `/img/conf/pics${13}.jpg`,
- `/img/conf/pics${14}.jpg`,
- `/img/conf/pics${15}.jpg`,
+  `/img/conf/pics${1}.jpg`,
+  `/img/conf/pics${2}.jpg`,
+  `/img/conf/pics${3}.jpg`,
+  `/img/conf/pics${4}.JPG`,
+  `/img/conf/pics${5}.JPG`,
+  `/img/conf/pics${6}.JPG`,
+  `/img/conf/pics${7}.JPG`,
+  `/img/conf/pics${8}.JPG`,
+  `/img/conf/pics${9}.JPG`,
+  `/img/conf/pics${10}.JPG`,
+  `/img/conf/pics${11}.JPG`,
+  `/img/conf/pics${12}.JPG`,
+  `/img/conf/pics${13}.jpg`,
+  `/img/conf/pics${14}.jpg`,
+  `/img/conf/pics${15}.jpg`,
 ];
 
 export const About = (props) => {
@@ -94,28 +94,50 @@ export const About = (props) => {
             <a
               href="/about"
               className="btn btn-custom btn-lg page-scroll"
-              style={{ marginTop: '6px' }}
+              style={{ marginTop: '6px', position: 'relative' }}
             >
               Abstract Submission
+              <span
+                style={{
+                  marginLeft: '15px',
+                  fontSize: '16px',
+                  fontWeight:'600',
+                  color: 'darkred',
+                  animation: 'blink 1s linear infinite',
+                  position: 'absolute',
+                  top: '15px',
+                  right: '-270px',
+                }}
+              >
+                *EXTENDED TILL JAN 20, 2025
+              </span>
             </a>
             <div className="about-date">
               <h3 style={{ marginTop: '3rem', marginBottom: '0.5rem' }}>Important Dates to Remember</h3>
               <p style={{ margin: '0', marginTop: '1.5rem', marginBottom: '0.5rem' }}>
                 <strong>Abstract Submission:</strong>{' '}
-                <span style={{ color: 'red', fontWeight: '500' }}>December 30, 2024 </span>
+                <span style={{ color: 'red', fontWeight: '500' }}>January 20, 2025 </span>
               </p>
               <p style={{ margin: '0', marginBottom: '0.5rem' }}>
                 <strong>Acceptance and Notification:</strong>{' '}
-                <span style={{ color: 'red', fontWeight: '500' }}>January 15, 2025 </span>
+                <span style={{ color: 'red', fontWeight: '500' }}>January 20, 2025 </span>
               </p>
               <p style={{ margin: '0', marginBottom: '0.5rem' }}>
                 <strong>Early Bird Registration:</strong>{' '}
-                <span style={{ color: 'red', fontWeight: '500' }}>January 20, 2025 </span>
+                <span style={{ color: 'red', fontWeight: '500' }}>January 25, 2025 </span>
               </p>
             </div>
           </div>
         </div>
       </div>
+      <style>
+        {`
+          @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+          }
+        `}
+      </style>
     </div>
   );
 };
