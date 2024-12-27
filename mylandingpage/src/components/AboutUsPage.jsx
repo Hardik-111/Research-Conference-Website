@@ -147,7 +147,7 @@ const AboutUsPage = () => {
                 <p>
                     All participants engaged in original work/projects related to various broad areas of the 
                     conference are welcome to submit the abstract (not exceeding 250 words) online through our 
-                    website on or before December 30, 2024. Candidates should register themselves and then login 
+                    website on or before January 20,2025. Candidates should register themselves and then login 
                     to submit the abstract. The organizing committee reserves the right for modification/correction/
                     revision and rights for accepting/rejecting the abstract. The abstract will only be included 
                     in proceedings if the registration fee is received. The notification regarding the nature of 
