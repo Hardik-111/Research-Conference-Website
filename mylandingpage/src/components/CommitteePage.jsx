@@ -4,6 +4,11 @@ import { Navigation } from './navigation';
 
 export const CommitteePage = () => {
   const speakers = [
+    { name: 'Dr. Rattan Yaday', institute: 'UK' },
+    { name: 'Dr. Jennifer Ann Harikrishna', institute: 'Malaysia' },
+    { name: 'Dr. Panlada Tittabutr', institute: 'Thailand' },
+    { name: 'Dr. Luciana Scotti', institute: 'Brazil' },
+    { name: 'Dr. Ashutosh Sharma', institute: 'Mexico' },
     { name: 'Prof. Prashant Mishra', institute: 'IIT Delhi' },
     { name: 'Prof. Savita Yadav', institute: 'AIIMS, New Delhi' },
     { name: 'Prof. B. Jayaram', institute: 'IIT Delhi' },

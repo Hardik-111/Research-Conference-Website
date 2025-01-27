@@ -168,7 +168,7 @@ const AboutUsPage = () => {
                     <li><strong>Current Topics in Medicinal Chemistry (Bentham)</strong></li>
                     <li><strong>Plant Gene (Elsevier)</strong></li>
                 </ul>
-                <h3 style={{ fontSize:'18px'}}>Conference Proceedings</h3>
+                <h3 style={{ fontSize:'20px'}}>Conference Proceedings</h3>
                 <p>
                     Structured abstracts from the conference will be included in the <strong>Proceedings of HABIT 2025</strong>. 
                     The ISSN/ISBN indexed proceedings will be published in online/offline mode by a reputed publisher. 
