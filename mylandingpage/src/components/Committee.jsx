@@ -37,9 +37,9 @@ export const Committee = (props) => {
       <a
         href='/committee'
         className='btn btn-lg page-scroll'
-        style={{ color:'#fff', backgroundColor:'#343434' , borderRadius: '15px' , padding:'12px 24px' }}
+        style={{ color:'#fff', backgroundColor:'#343434' , borderRadius: '25px' ,marginTop: '20px', padding:'12px 24px' }}
         >
-       Our Speakers
+       OUR SPEAKERS
       </a>
     </div>
   );
