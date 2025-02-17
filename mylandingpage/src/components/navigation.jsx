@@ -8,8 +8,11 @@ export const Navigation = (props) => {
 
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
+   
+
+      <div className='navbar-container'>
         <div className='navbar-header'>
+    
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -21,6 +24,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>
           </button>
+   
 
           {/* Add logo and title here */}
           <Link className='navbar-brand page-scroll' to='/' style={{ display: 'flex', alignItems: 'center' }}>
@@ -34,6 +38,7 @@ export const Navigation = (props) => {
         </div>
 
         <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+          
           <ul className='nav navbar-nav navbar-right'>
             {/* For the landing page, use smooth scroll to sections; for other pages, use regular routes */}
             <li>
@@ -89,7 +94,17 @@ export const Navigation = (props) => {
               Brochure
             </a>
           </li>
-
+             {/* Download Program Schedule Annexure link */}
+             <li>
+              <a
+                href='/Program_Schedule_Annexure_HABIT-2025.pdf'
+                download
+                className='page-scroll'
+                style={{ fontWeight: 'bold', color: '#007bff' }} // Optional: customize style
+              >
+               Schedule 
+              </a>
+            </li>
           </ul>
         </div>
       </div>

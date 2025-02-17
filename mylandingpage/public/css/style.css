@@ -89,8 +89,25 @@ hr {
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
-	/* margin-right: 2rem; */
+	margin-left: 1rem;
 }
+
+
+#menu.navbar-container{
+	padding: 16px;
+	/* align-items: center; */
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+/* nav#menu{
+	margin-left: 2rem;
+	margin-right: 2rem;
+} */
+
+
+
+
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;

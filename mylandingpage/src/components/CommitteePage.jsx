@@ -109,7 +109,7 @@ export const CommitteePage = () => {
             </tbody>
           </table>
 
-          <h2 style={{ color: 'white' , marginBottom: '3rem' }}>Speakers in HABIT 2025</h2>
+          {/* <h2 style={{ color: 'white' , marginBottom: '3rem' }}>Speakers in HABIT 2025</h2>
           <table className="table table-bordered" style={{ backgroundColor: 'white' }}>
           <thead style={{ color:'white' ,backgroundColor:'#454545' }}>
               <tr>
@@ -127,7 +127,7 @@ export const CommitteePage = () => {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table> */}
         </div>
       </div>
       <Footer />
