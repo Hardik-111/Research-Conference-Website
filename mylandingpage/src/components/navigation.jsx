@@ -89,7 +89,7 @@ export const Navigation = (props) => {
               href='/Brochure_HABIT-2025.pdf'
               download
               className='page-scroll'
-              style={{ fontWeight: 'bold', color: '#ff6f61' }} // Optional: customize style
+              style={{ fontWeight: 'bold', color: '#d32f2f' }} // Optional: customize style
             >
               Brochure
             </a>
@@ -100,7 +100,7 @@ export const Navigation = (props) => {
                 href='/Program_Schedule_Annexure_HABIT-2025.pdf'
                 download
                 className='page-scroll'
-                style={{ fontWeight: 'bold', color: '#007bff' }} // Optional: customize style
+                style={{ fontWeight: 'bold', color: '#673ab7' }} // Optional: customize style
               >
                Schedule 
               </a>

@@ -96,8 +96,11 @@ hr {
 #menu.navbar-container{
 	padding: 16px;
 	/* align-items: center; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
 	margin-left: 2rem;
-	margin-right: 2rem;
 }
 
 /* nav#menu{
@@ -157,6 +160,11 @@ hr {
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #608dfd;
 }
+
+
+
+
+
 .section-title {
 	margin-bottom: 70px;
 }
@@ -288,6 +296,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   @media (max-width: 480px) {
+	
 	.intro h1 {
 	  font-size: 36px; /* Much smaller for mobile devices */
 	}
