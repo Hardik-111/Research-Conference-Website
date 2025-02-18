@@ -1,134 +1,136 @@
-# International Conference on HABIT 2025
+# 🌿 HABIT 2025 - International Conference on Health and Agricultural Biotechnology
 
 ![HABIT-2025 Conference](https://github.com/user-attachments/assets/273d1a98-4500-4123-a169-055eb774ca12)
 
+Welcome to the official repository of **HABIT 2025**! This conference is designed to bring together experts, researchers, and industry professionals to explore the latest trends and innovations in **Health** and **Agricultural Biotechnology**. Join us for an exciting journey into the future of biotechnology.
 
-
-Welcome to the repository for the **International Conference on HABIT 2025**! This conference, titled *"International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends"*, will focus on advancing scientific innovation in biotechnology. It is organized by the **Department of Biotechnology**, Motilal Nehru National Institute of Technology (MNNIT), Allahabad.
-
-## Table of Contents
-
-- [About the Conference](#about-the-conference)
-- [Thrust Areas of the Conference](#thrust-areas-of-the-conference)
-- [Important Dates](#important-dates)
-- [Publication of Conference Papers](#publication-of-conference-papers)
-- [About the Institute](#about-the-institute)
-- [Fee Structure](#fee-structure)
-- [Paper Submission](#paper-submission)
-- [Modes of Payment](#modes-of-payment)
-- [Registration Link](#registration-link)
-- [Contact](#contact)
+**Dates:** **February 28 – March 2, 2025**  
+**Location:** Motilal Nehru National Institute of Technology (MNNIT), Allahabad, India
 
 ---
 
-## About the Conference
+## 🚀 Conference Highlights
 
-It gives us immense pleasure to invite you to the **International Conference on HABIT 2025**, to be held in the culturally rich city of **Prayagraj (Allahabad)** from **February 28 to March 2, 2025**. The conference aims to promote scientific knowledge and innovation in biotechnology and related disciplines, offering a platform for researchers, academicians, and industry professionals to share their expertise.
-
-The event will feature distinguished speakers, young scientist awards, and opportunities to present cutting-edge research in front of eminent experts. Each session will delve into recent advances in health, agriculture, and allied sciences.
-
----
-
-## Thrust Areas of the Conference
-
-- Health and Medical Biotechnology
-- Bioinformatics, Computational Biology, and Chemistry
-- Agricultural Biotechnology
-- Molecular Biology, Nanotechnology, and Material Science
-- Environmental and Industrial Biotechnology
-- Interdisciplinary Approaches in Health, Food, Agriculture, and the Environment
+- 🌍 **Interdisciplinary Topics** in Biotechnology
+- 🎤 **Distinguished Speakers** and Researchers
+- 🏆 **Young Scientist Awards** for Future Innovators
+- 📚 **Publication Opportunities** in Leading Journals
 
 ---
 
-## Important Dates
+## 🧬 Thrust Areas
 
-- **Abstract Submission Deadline**: December 30, 2024  
-- **Acceptance Notification**: January 15, 2025  
-- **Early Bird Registration Deadline**: January 20, 2025  
+This year’s conference will cover a wide range of groundbreaking topics, including:
+
+- **Health & Medical Biotechnology**  
+- **Bioinformatics, Computational Biology & Chemistry**  
+- **Agricultural Biotechnology**  
+- **Molecular Biology, Nanotechnology & Material Science**  
+- **Environmental & Industrial Biotechnology**  
+- **Interdisciplinary Approaches** in Food, Health, Agriculture, and Environment  
 
 ---
 
-## Publication of Conference Papers
+## 📅 Important Dates
 
-Selected papers from HABIT 2025, after approval by the Editorial and International Committee (EIC), will be invited for publication in special issues of journals, including:
+- **Abstract Submission Deadline:** December 30, 2024  
+- **Acceptance Notification:** January 15, 2025  
+- **Early Bird Registration Deadline:** January 20, 2025  
 
-- *Current Topics in Medicinal Chemistry (Bentham)*
-- *Plant Gene (Elsevier)*
+---
+
+## 📝 Paper Submission & Publication
+
+We are excited to invite researchers to submit their papers for potential publication. Selected papers will be invited for publication in prestigious journals like:
+
+- *Current Topics in Medicinal Chemistry* (Bentham)  
+- *Plant Gene* (Elsevier)
 
 Conference proceedings will also be published online/offline by reputed publishers.
 
----
-
-## About the Institute
-
-Motilal Nehru National Institute of Technology (MNNIT), Allahabad, is a premier institute dedicated to academic excellence. Established in 1961 as a Regional Engineering College, MNNIT is now a centrally funded institution with a history of over 50 years in technical education. 
-
-The **Department of Biotechnology**, established in 2012, aims to integrate cutting-edge technology and innovation to address global challenges in health, agriculture, and the environment.
+**Abstract Submission:**  
+[Submit your abstract here](https://forms.gle/nupHfwqcnicCd7U8A)
 
 ---
 
-## Fee Structure
+## 🏫 About MNNIT
 
-| **Category**                        | **Early Bird (Before 20/01/2025)** | **Late (10/02/2025)** | **On-Spot Registration** |
-|-------------------------------------|------------------------------------|-----------------------|--------------------------|
-| **Students (UG/PG)**                | ₹2500                              | ₹3000                 | ₹3500                   |
-| **PhD/Postdoctoral Scholars**       | ₹3500                              | ₹4000                 | ₹5000                   |
-| **Faculty/Scientists**              | ₹5000                              | ₹6000                 | ₹7000                   |
-| **Industry Professionals**          | ₹6000                              | ₹7000                 | ₹8000                   |
-| **Accompanying Person**             | ₹3000                              | ₹3500                 | ₹3500                   |
-
-### Fee for Foreign Delegates (in USD)
-
-| **Category**                        | **Early Bird** | **Late** | **On-Spot Registration** |
-|-------------------------------------|----------------|----------|--------------------------|
-| **Students (UG/PG)**                | $200           | $250     | $300                    |
-| **PhD/Postdoctoral Scholars**       | $250           | $300     | $350                    |
-| **Faculty/Scientists**              | $300           | $400     | $500                    |
-| **Industry Professionals**          | $400           | $500     | $600                    |
-| **Accompanying Person**             | $200           | $250     | $300                    |
-
-**Note**: Fee includes conference kit, refreshments, and entry to cultural events.
+**Motilal Nehru National Institute of Technology (MNNIT)**, established in 1961, is one of India’s premier institutions known for excellence in education and research. The **Department of Biotechnology**, founded in 2012, is focused on addressing global challenges through cutting-edge research and interdisciplinary approaches.
 
 ---
 
-## Paper Submission
+## 💸 Fee Structure
 
-Authors are invited to submit their abstracts (not exceeding 250 words) via the following [Google Form](https://forms.gle/nupHfwqcnicCd7U8A).  
+### Indian Delegates
 
-Steps for submission:
-1. Register at: [https://shortcut.url/PW4YN](https://shortcut.url/PW4YN).
-2. Submit the abstract using the provided Google Form.
+| **Category**                        | **Early Bird** (Before 20/01/2025) | **Late Registration** (After 20/01/2025) | **On-Spot** |
+|-------------------------------------|-----------------------------------|-----------------------------------------|-------------|
+| **Students (UG/PG)**                | ₹2500                             | ₹3000                                   | ₹3500       |
+| **PhD/Postdoctoral Scholars**       | ₹3500                             | ₹4000                                   | ₹5000       |
+| **Faculty/Scientists**              | ₹5000                             | ₹6000                                   | ₹7000       |
+| **Industry Professionals**          | ₹6000                             | ₹7000                                   | ₹8000       |
+| **Accompanying Person**             | ₹3000                             | ₹3500                                   | ₹3500       |
 
-Notification of acceptance will be communicated by email. Final presentations (oral or poster) must adhere to the following size guidelines:
-- **Poster size**: 90x90 cm  
-- **Oral Presentation**: Include title, authors, introduction, methods, results, and conclusions.
+### Foreign Delegates (USD)
+
+| **Category**                        | **Early Bird** | **Late** | **On-Spot** |
+|-------------------------------------|----------------|----------|-------------|
+| **Students (UG/PG)**                | $200           | $250     | $300        |
+| **PhD/Postdoctoral Scholars**       | $250           | $300     | $350        |
+| **Faculty/Scientists**              | $300           | $400     | $500        |
+| **Industry Professionals**          | $400           | $500     | $600        |
+| **Accompanying Person**             | $200           | $250     | $300        |
+
+**Note:** The fee includes conference kit, refreshments, and entry to cultural events.
 
 ---
 
-## Modes of Payment
+## 💻 Paper Submission Process
+
+1. **Register**: [Complete your registration here](https://shortcut.url/PW4YN)
+2. **Submit Abstract**: [Submit your abstract](https://forms.gle/nupHfwqcnicCd7U8A) (250 words max)
+3. **Presentation**: Accepted papers will be presented as oral or poster presentations.
+
+**Presentation Guidelines**:
+- **Poster Size:** 90x90 cm  
+- **Oral Presentation:** Title, authors, introduction, methods, results, and conclusions.
+
+---
+
+## 💳 Payment Methods
 
 ### Offline Payment
-- **Demand Draft (DD)**: In favor of **HABIT 2025**, payable at **Prayagraj (Allahabad)**.
+- **Demand Draft (DD)**: Payable to **HABIT 2025**, Prayagraj.
 
 ### Online Payment
 - **Bank Account Details**:
-    - **Bank Name**: SBI, MNNIT Allahabad  
-    - **Account Name**: SNFCE MNNIT Allahabad  
-    - **Account Number**: 10424975574  
-    - **IFSC Code**: SBIN0002580  
+    - **Bank**: SBI, MNNIT Allahabad
+    - **Account Name**: SNFCE MNNIT Allahabad
+    - **Account Number**: 10424975574
+    - **IFSC Code**: SBIN0002580
 
 ---
 
-## Registration Link
+## 🔗 Registration Link
 
-Register for the conference at: [https://mnnit.ac.in/habit2025/](https://mnnit.ac.in/habit2025/).
-
----
-
-## Contact
-
-For inquiries, please email: [habit2025@mnnit.ac.in](mailto:habit2025@mnnit.ac.in).
+[Register Now for HABIT 2025](https://mnnit.ac.in/habit2025/)
 
 ---
 
-Let me know if additional details are required! 😊
+## 📄 Downloadable Resources
+
+- [**Conference Brochure (PDF)**](https://github.com/user-attachments/files/18849763/Brochure_HABIT-2025.pdf)
+- [**Conference Program Schedule (PDF)**](https://github.com/user-attachments/files/18849874/Program_Schedule_Annexure_HABIT-2025.pdf)
+
+
+---
+
+## 📧 Contact/Email
+
+For more details, please reach out to us via email:  
+**Email:** [2025habit@gmail.com](mailto:2025habit@gmail.com)
+
+
+---
+
+Feel free to reach out if you have any questions. We look forward to seeing you at **HABIT 2025**! ✨
