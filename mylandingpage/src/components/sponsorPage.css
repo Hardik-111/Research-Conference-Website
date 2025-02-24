@@ -1,0 +1,117 @@
+/* src/components/sponsorPage.css */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sponsor-page-section {
+    flex: 1;
+    padding: 60px 0; /* Matches VenuePage's .venue-details padding */
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 5rem;
+    margin-bottom: 2.2rem;
+    overflow: hidden;
+  }
+  
+  /* Use styles.css's .section-title */
+  .section-title {
+    margin-bottom: 40px; /* Reduced from 70px to match VenuePage */
+  }
+  
+  .section-title h2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .section-title h2::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
+  }
+  
+  .subtitle {
+    font-size: 18px; /* Matches styles.css .section-title p */
+    color: #555; /* Matches VenuePage p color */
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .sponsor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sponsor-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sponsor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .sponsor-image {
+    width: 100%;
+    height: 120px; /* Fixed height for consistency */
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .sponsor-card:hover .sponsor-image {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .sponsor-page-section {
+      padding: 40px 0;
+    }
+  
+    .section-title h2 {
+      font-size: 28px; /* Matches VenuePage h2 adjustment */
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .sponsor-list {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+  
+    .sponsor-image {
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sponsor-list {
+      grid-template-columns: 1fr;
+      padding: 0 15px;
+    }
+  
+    .sponsor-card {
+      padding: 15px;
+    }
+  }

@@ -1,0 +1,41 @@
+/* components/sponsors.css */
+.sponsors-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .sponsor-marquee {
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .sponsor-track {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    width: 200%; /* Double width for continuous scrolling */
+  }
+  
+  .sponsor-item {
+    flex: 0 0 auto;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .sponsor-item img {
+    max-height: 100px; /* Adjust based on your needs */
+    max-width: 200px; /* Adjust based on your needs */
+    object-fit: contain;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .sponsor-marquee:hover .sponsor-track {
+    animation-play-state: paused;
+  }
