@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, IconButton } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import CloseIcon from '@mui/icons-material/Close';
+// import CloseIcon from '@mui/icons-material/Close';
 
 // Array of images for the slider
 const sliderImages = [
@@ -25,7 +25,7 @@ const sliderImages = [
 
 export const About = (props) => {
   const [sliderIndex, setSliderIndex] = useState(0);
-  const [showFloatingMessage, setShowFloatingMessage] = useState(true);
+  // const [showFloatingMessage, setShowFloatingMessage] = useState(true);
 
   const handleNext = () => {
     setSliderIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);

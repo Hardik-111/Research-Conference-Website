@@ -59,7 +59,7 @@ export const Navigation = (props) => {
 
             <li>
               {isLandingPage ? (
-                <a href='#' className='page-scroll'>Home</a>
+                <a href='#home' className='page-scroll'>Home</a>
               ) : (
                 <Link to='/'>Home</Link>
               )}

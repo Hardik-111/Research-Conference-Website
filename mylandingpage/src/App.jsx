@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Navigation } from './components/navigation';
 import Header from './components/header';
-import { Features } from './components/features';
+// import { Features } from './components/features';
 import { About } from './components/about';
 import { CommitteePage } from './components/CommitteePage';
 import { Payment } from './components/payment';
-import { Testimonials } from './components/testimonials';
+// import { Testimonials } from './components/testimonials';
 import { Footer } from './components/footer';
 import { Venue } from './components/venue';
 import { VenuePage } from './components/VenuePage';
