@@ -41,6 +41,22 @@ export const Navigation = (props) => {
           
           <ul className='nav navbar-nav navbar-right'>
             {/* For the landing page, use smooth scroll to sections; for other pages, use regular routes */}
+            {/* Download Proceedings 2025 */}
+          <li>
+            <a
+              href="/Biotechnology.pdf"
+              download
+              className="page-scroll"
+              style={{
+                fontWeight: '600',
+                color: '#0288d1',   // soft, readable blue
+                letterSpacing: '0.5px'
+              }}
+            >
+              PROCEEDINGS-2025
+            </a>
+          </li>
+
             <li>
               {isLandingPage ? (
                 <a href='#' className='page-scroll'>Home</a>
