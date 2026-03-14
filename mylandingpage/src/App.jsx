@@ -1,4 +1,3 @@
-```javascript
 import { useState, useEffect } from 'react';
 import { Navigation } from './components/navigation';
 import Header from './components/header';
@@ -79,4 +78,3 @@ const App = () => {
 };
 
 export default App;
-```
