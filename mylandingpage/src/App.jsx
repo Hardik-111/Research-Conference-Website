@@ -25,24 +25,20 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 const App = () => {
   const MAINTENANCE_MODE = true;
 
-  if (MAINTENANCE_MODE) {
-    return (
-      <div style={{
-        textAlign: "center",
-        marginTop: "120px",
-        fontFamily: "Arial, sans-serif"
-      }}>
-        <h1>Site Under Maintenance</h1>
-        <p>Please check back later.</p>
-      </div>
-    );
-  }
-
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
+
+  if (MAINTENANCE_MODE) {
+    return (
+      <div style={{ textAlign: "center", marginTop: "120px", fontFamily: "Arial" }}>
+        <h1>Site Under Maintenance</h1>
+        <p>Please check back later.</p>
+      </div>
+    );
+  }
 
   return (
     <Router>
