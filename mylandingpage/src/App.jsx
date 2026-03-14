@@ -1,11 +1,10 @@
+```javascript
 import { useState, useEffect } from 'react';
 import { Navigation } from './components/navigation';
 import Header from './components/header';
-// import { Features } from './components/features';
 import { About } from './components/about';
 import { CommitteePage } from './components/CommitteePage';
 import { Payment } from './components/payment';
-// import { Testimonials } from './components/testimonials';
 import { Footer } from './components/footer';
 import { Venue } from './components/venue';
 import { VenuePage } from './components/VenuePage';
@@ -18,9 +17,6 @@ import { Contact } from './components/contact';
 import { Committee } from './components/Committee';
 import { Sponsors } from './components/Sponsors';
 import { SponsorPage } from './components/SponsorPage';
- 
- // New import
-
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -28,6 +24,21 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+  const MAINTENANCE_MODE = true;
+
+  if (MAINTENANCE_MODE) {
+    return (
+      <div style={{
+        textAlign: "center",
+        marginTop: "120px",
+        fontFamily: "Arial, sans-serif"
+      }}>
+        <h1>Site Under Maintenance</h1>
+        <p>Please check back later.</p>
+      </div>
+    );
+  }
+
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {
@@ -48,7 +59,7 @@ const App = () => {
                 <Payment />
                 <Committee data={landingPageData.Committee} />
                 <Venue />
-                <Sponsors />      
+                <Sponsors />
                 <Contact />
                 <Footer />
               </>
@@ -60,7 +71,7 @@ const App = () => {
           <Route path="/payment" element={<Payment />} />
           <Route path="/payment-page" element={<PaymentPage />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/sponsor" element={<SponsorPage />} /> 
+          <Route path="/sponsor" element={<SponsorPage />} />
         </Routes>
       </div>
     </Router>
@@ -68,3 +79,4 @@ const App = () => {
 };
 
 export default App;
+```
